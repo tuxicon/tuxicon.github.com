@@ -140,11 +140,17 @@ a img {
 /* Body */
 
 body {
-  font-family: source-sans-pro, arial, helvetica, clean, sans-serif;
+
+    font-family: "museo" georgia, serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.618em;
+    line-height: 1.618em;
+    color: rgb(70, 63, 76);
   background: url("/assets/images/background.png");
-  color: #111111;
+
   margin: 0;
-  font-size: 112.5%;
+
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -164,41 +170,57 @@ a:active {
 /* 1.1 Headings - h1, h2, h3, h4, h5, h6 & other (if any)
    ========================================================================== */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+
+h2, h3, h4, h5, h6, aside, .column-width, .aside-width {
+    font-family: "calluna-sans", arial, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 0.518em;
 }
+
+footer {
+    font-family: "calluna-sans", arial, helvetica, sans-serif;
+    font-style:italic;
+}
+
+h1, h2, h3, h4, h5, h6 { text-shadow: 1px 1px 1px rgb(255,255,255); }
+h3 { text-transform:uppercase; letter-spacing:0.1em; }
+
 h1 {
-  font-size: 2.222222222em;
-  margin-bottom: 10px;
+    text-align: center;
+    font-size: 2.618em;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin-bottom:0.809em;
 }
-h2 {
-  font-size: 1.777777778em;
-  margin-bottom: 8px;
+
+p, ul, ol, dl, blockquote {
+    font-family: "calluna-sans", arial, helvetica, sans-serif;
+
+    font-size: 1em;
+    line-height: 1.618em;
+    margin-bottom:1.618em;
+    max-width:30em;
 }
-h3 {
-  font-size: 1.555555556em;
-  margin-bottom: 6px;
+
+p.intro {
+    font-family: "calluna-sans", arial, helvetica, sans-serif;
+
+    font-size: 1.309em;
+    margin-bottom: 1em;
 }
-h4 {
-  font-size: 1.222222222em;
-  margin-bottom: 4px;
-}
-h5 {
-  font-size: 1.055555556em;
-  color: #333333;
-  margin-bottom: 2px;
-}
+
+ul { list-style-type: disc; margin-left: 1.618em; }
+ol { list-style-type: decimal; margin-left: 1.618em; }
+
+b, strong { font-weight: 700; }
+i, em { font-style: italic; }
+small { font-size: 1em; }
+
 /* 1.2 Paragraphs, block quotes, code, pre, etc
    ========================================================================== */
 
-p {
-  margin: 0 0 1em 0;
-}
+
 abbr {
   border-bottom: 1px dotted black;
   cursor: help;
@@ -694,3 +716,5 @@ select:focus {
 }
 /* End Print Media Query */
 
+
+/* TYPOGRAPHY */
