@@ -503,7 +503,7 @@ select:focus {
   position: relative;
 }
 .container {
-  max-width: 1200px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 20px 10px 0px 20px;
   margin-top: 20px;
