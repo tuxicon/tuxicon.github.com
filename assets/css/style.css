@@ -503,13 +503,14 @@ select:focus {
   position: relative;
 }
 .container {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px 10px 0px 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: white;
   border: 1px solid #e6e6e6;
+  height: 580px;
 }
 .container-full {
   max-width: 980px;
