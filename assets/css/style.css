@@ -794,6 +794,10 @@ select:focus {
 .content p {
     margin: 25px;
 }
+.gridster ul{
+    max-width:55em;
+}
+
 
 .gridster .gs_w, .gridster2 .gs_w {
     background: #FFF;
