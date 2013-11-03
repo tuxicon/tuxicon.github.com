@@ -801,7 +801,7 @@ select:focus {
 
 .gridster .gs_w, .gridster2 .gs_w {
     background: #FFF;
-    cursor: pointer;
+
     -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
@@ -812,12 +812,7 @@ select:focus {
 }
 
 
-.gridster .gs_w.try, .gridster2 .gs_w.try {
-    background-image: url(../img/sprite.png);
-    background-repeat: no-repeat;
-    background-position: 37px -169px;
 
-}
 
 .gridster .preview-holder, .gridster2 .preview-holder {
     border: none!important;
@@ -828,3 +823,45 @@ select:focus {
 li {
     list-style: none;
 }
+
+
+
+.gridster .gs_w.pim, .gridster2 .gs_w.pim {
+    background-image: url("/assets/images/pimtouch/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+.gridster .gs_w.ucd, .gridster2 .gs_w.ucd {
+    background-image: url("/assets/images/ucd/page2_small.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+
+.gridster .gs_w.ucd span{
+
+
+position: absolute;
+    bottom: 0;
+    right: 0;
+
+
+}
+
+.gridster .gs_w.pim span{
+
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+
+}
+
+
+
