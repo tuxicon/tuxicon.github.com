@@ -555,6 +555,17 @@ select:focus {
   border: 1px solid #e6e6e6;
   height: 580px;
 }
+
+.secondPagecontainer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 10px 0px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #666;
+    height: 580px;
+}
+
 .container-full {
   max-width: 980px;
   margin: 0 auto;
@@ -672,6 +683,10 @@ select:focus {
   .container {
     width: 700px;
   }
+
+    .secondPagecontainer{
+        width: 700px;
+    }
   .notablet {
     display: none;
   }
@@ -713,6 +728,11 @@ select:focus {
     padding-right: 20px;
     margin-top: 0px;
   }
+    .secondPagecontainer {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 0px;
+    }
   .navigation a:active,
   .navigation a:visited {
     color: white;
@@ -763,105 +783,125 @@ select:focus {
 
 /* TYPOGRAPHY */
 
-/* Gridster styles */
-.demo {
-    margin: 3em 0;
-    padding: 7.5em 0 5.5em;
-    background: #004756;
-}
+#pimCover {
+    background-image: url("/assets/images/pimtouch/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75%;
+    width: 100%;
 
-.demo:hover .gridster {
-    opacity: 1;
-}
 
-.gridster, .content, .gridster2 {
-    width: 940px;
-    margin: 0 auto;
-
-    opacity: .8;
-
-    -webkit-transition: opacity .6s;
-    -moz-transition: opacity .6s;
-    -o-transition: opacity .6s;
-    -ms-transition: opacity .6s;
-    transition: opacity .6s;
-}
-
-.content {
-    color: white;
-}
-
-.content p {
-    margin: 25px;
-}
-.gridster ul{
-    max-width:55em;
 }
 
 
-.gridster .gs_w, .gridster2 .gs_w {
+#emojahCover {
+    background-image: url("/assets/images/emojah/emojah.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75%;
+    width: 100%;
+
+
+
+}
+
+#ucdCover {
+     background-image: url("/assets/images/ucd/page2_small.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     height: 75%;
+     width: 100%;
+
+
+
+ }
+
+#diesCover {
+    background-image: url("/assets/images/");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75%;
+    width: 100%;
+
+
+
+}
+
+#pim{
+    width: 350px;
+    height: 150px;
+}
+
+
+#dies{
+    width: 220px;
+    height: 150px;
+}
+
+
+#ucd{
+    width: 250px;
+    height: 200px;
+}
+
+#emojah{
+    width: 220px;
+    height: 150px;
+}
+
+#creativeDesign{
+    width: 220px;
+    height: 150px;
+}
+
+
+
+#pimlink {
+    float: right;
+    margin-top: 10px;
+}
+
+
+.element {
+
+    margin: 5px;
+    float: left;
+    overflow: hidden;
+    position: relative;
     background: #FFF;
 
     -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
-}
-
-.gridster .player, .gridster2 .player {
-    -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
-}
-
-
-
-
-.gridster .preview-holder, .gridster2 .preview-holder {
-    border: none!important;
-    border-radius: 0!important;
-    background: rgba(255,255,255,.2)!important;
-}
-
-li {
-    list-style: none;
-}
-
-
-
-.gridster .gs_w.pim, .gridster2 .gs_w.pim {
-    background-image: url("/assets/images/pimtouch/cover.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
 
 
 }
 
-.gridster .gs_w.ucd, .gridster2 .gs_w.ucd {
-    background-image: url("/assets/images/ucd/page2_small.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
+.tag.coding          { width: 60px; background: #F00; background: hsl(   0, 100%, 50%); }
+.tag.prototyping  { width: 100px; background: #F80; background: hsl(  36, 100%, 50%); }
+.tag.prototypingAndCoding { background: #FF0; background: hsl(  72, 100%, 50%); }
+.tag.research        { background: #0F0; background: hsl( 108, 100%, 50%); }
+.tag.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
+.tag.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
+.tag.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
+.element.other.nonmetal  { background: #00F; background: hsl( 252, 100%, 50%); }
+.element.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
+.element.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
 
+.tag{
+
+
+    height: 30px;
+    margin: 5px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+
+    -webkit-border-top-right-radius: 1.2em;
+    -moz-border-radius-topright: 1.2em;
+    border-top-right-radius: 1.2em;
+    border-top-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    border-bottom-left-radius: 1.2em;
 
 }
-
-
-.gridster .gs_w.ucd span{
-
-
-position: absolute;
-    bottom: 0;
-    right: 0;
-
-
-}
-
-.gridster .gs_w.pim span{
-
-
-    position: absolute;
-    bottom: 0;
-    right: 0;
-
-
-}
-
-
 
