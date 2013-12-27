@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="119fe212-9b13-41e7-8057-15bf31ae9878" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tuxicon.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="119fe212-9b13-41e7-8057-15bf31ae9878" time="1386870566334" ignored="false" />
-    <file path="/index.html" changelist="119fe212-9b13-41e7-8057-15bf31ae9878" time="1386933444841" ignored="false" />
+    <file path="/Dummy.txt" changelist="119fe212-9b13-41e7-8057-15bf31ae9878" time="1388132848430" ignored="false" />
+    <file path="/index.html" changelist="119fe212-9b13-41e7-8057-15bf31ae9878" time="1388138776747" ignored="false" />
     <file path="/dummy.xml" changelist="119fe212-9b13-41e7-8057-15bf31ae9878" time="1379965743041" ignored="false" />
     <file path="/global.css" changelist="119fe212-9b13-41e7-8057-15bf31ae9878" time="1379975866341" ignored="false" />
     <file path="/style.css" changelist="119fe212-9b13-41e7-8057-15bf31ae9878" time="1385503949854" ignored="false" />
@@ -96,8 +94,12 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="115" selection-start="971" selection-end="971" vertical-scroll-proportion="0.40097404">
-              <folding />
+            <state line="15" column="33" selection-start="663" selection-end="663" vertical-scroll-proportion="-3.2256494">
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#li#1;n#div#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#li#2;n#div#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#li#3;n#div#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -215,8 +217,8 @@
     <property name="options.lastSelected" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bw/brainwatch-openvibe/emwa.py" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -438,8 +440,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="115" selection-start="971" selection-end="971" vertical-scroll-proportion="0.40097404">
-          <folding />
+        <state line="15" column="33" selection-start="663" selection-end="663" vertical-scroll-proportion="-3.2256494">
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#li#1;n#div#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#li#2;n#div#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#li#3;n#div#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

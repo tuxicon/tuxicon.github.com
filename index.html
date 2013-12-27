@@ -7,7 +7,19 @@
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
         <link rel="stylesheet" media="screen" href="/assets/css/style.css">
         <link rel="stylesheet" media="screen" href="/assets/css/jquery.fullPage.css">
+        <!--START JUICEBOX EMBED-->
+        <script src="/assets/images/pim_touch/jbcore/juicebox.js"></script>
+        <script>
+            new juicebox({
+                containerId : "pimtouch-container",
+                galleryWidth: "800px",
+                galleryHeight: "500px",
+                backgroundColor: "#222222",
+                baseURL: "/assets/images/pim_touch/"
+            });
+        </script>
 
+        <!--END JUICEBOX EMBED-->
     </head>
     <body>
     <ul id="menu"><div class="col six nav">
@@ -96,11 +108,14 @@
             </div>
 
         </div>
-    <div class="section secondPagecontainer"> <p>This page is currently under construction please check CV for the projects now.</p>
+
+    <div class="section secondPagecontainer"> <p>Tea. </p>
+        <div id="pimtouch-container"></div>
     </div>
 
     <div class="section secondPagecontainer"> <p>This page is currently under construction please check CV for the projects now.</p>
     </div>
+
 
 
 
@@ -116,7 +131,7 @@
         $(document).ready(function() {
             var pepe = $.fn.fullpage({
 
-                anchors: ['firstPage', 'secondPage', '3rdPage', 'pim', 'ucd', 'lastPage'],
+                anchors: ['firstPage', 'secondPage','pim', '3rdPage'],
                 menu: '#menu'
             });
 
