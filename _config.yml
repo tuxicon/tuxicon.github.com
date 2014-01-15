@@ -129,3 +129,16 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding
+  
+markdown: rdiscount
+pygments: true
+auto: true
+
+ftp_host: 'ftp.byethost17.com'
+ftp_dir: '/htdocs'
+ftp_passive: false
+
+# optional
+ftp_port: 21                  # default 21
+ftp_username: 'b17_10483428'     # default read from stdin
+ftp_password: 'sai123' # default read from stdin

@@ -4,10 +4,17 @@ http://tuxicon.github.io/categories.html
 http://tuxicon.github.io/index.html
 http://tuxicon.github.io/pages/about.html
 http://tuxicon.github.io/pages/archive.html
+http://tuxicon.github.io/pages/Emojah.html
 http://tuxicon.github.io/pages/experience.html
 http://tuxicon.github.io/pages/feeds.html
+http://tuxicon.github.io/pages/floorcom.html
+http://tuxicon.github.io/pages/Hvizgarden.html
+http://tuxicon.github.io/pages/makervis.html
 http://tuxicon.github.io/pages/pages.html
+http://tuxicon.github.io/pages/pimtouch.html
+http://tuxicon.github.io/pages/pimtouch.txt
 http://tuxicon.github.io/pages/projects.html
+http://tuxicon.github.io/pages/tweetzoom.html
 http://tuxicon.github.io/rss.xml
 http://tuxicon.github.io/sitemap.txt
 http://tuxicon.github.io/tags.html
