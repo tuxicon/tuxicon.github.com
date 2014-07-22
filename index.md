@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 <div>
-<div style="float: left; width: 200px; margin-right: 20px; margin-top: 28px;"><img style="border-radius: 7px;" src="assets/images/me-cropped.jpg" /></div>
+<div style="float: left; width: 200px; margin-right: 20px; margin-top: 8px;"><img style="border-radius: 7px;" src="assets/images/me-cropped.jpg" /></div>
 <div style="float: left; width: 275px;">
    <p>I'm a masters student at both Universite Paris-Sud and TU-Berlin. Currently, I am doing an internship at Xerox Research in the beautiful city of Grenoble.</p>
 
