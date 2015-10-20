@@ -1,25 +1,26 @@
 
-http://tuxicon.github.io/atom.xml
-http://tuxicon.github.io/categories.html
-http://tuxicon.github.io/index.html
+http://tuxicon.github.io/pages/Emojah.html
+http://tuxicon.github.io/pages/Hvizgarden.html
+http://tuxicon.github.io/pages/Turkbench.html
 http://tuxicon.github.io/pages/about.html
 http://tuxicon.github.io/pages/archive.html
-http://tuxicon.github.io/pages/Emojah.html
+http://tuxicon.github.io/atom.xml
+http://tuxicon.github.io/categories.html
 http://tuxicon.github.io/pages/experience.html
 http://tuxicon.github.io/pages/feeds.html
 http://tuxicon.github.io/pages/floorcom.html
-http://tuxicon.github.io/pages/Hvizgarden.html
+http://tuxicon.github.io/index.html
 http://tuxicon.github.io/pages/makervis.html
 http://tuxicon.github.io/pages/pages.html
 http://tuxicon.github.io/pages/pimtouch.html
 http://tuxicon.github.io/pages/pimtouch.txt
 http://tuxicon.github.io/pages/projects.html
-http://tuxicon.github.io/pages/tweetzoom.html
 http://tuxicon.github.io/rss.xml
 http://tuxicon.github.io/sitemap.txt
 http://tuxicon.github.io/tags.html
+http://tuxicon.github.io/pages/tweetzoom.html
 
 http://tuxicon.github.io/2013/03/14/a-joke-is-all-about-the-reference
-http://tuxicon.github.io/2012/09/10/je-visite-a-pondichery-et-jai-obtenu-mon-visa
+http://tuxicon.github.io/2012/09/11/je-visite-a-pondichery-et-jai-obtenu-mon-visa
 http://tuxicon.github.io/2012/08/24/somewhere-along-the-road-of-research
 http://tuxicon.github.io/2012/07/18/hello-world
