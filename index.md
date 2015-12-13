@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 <div>
-<div style="float: left; width: 200px; margin-right: 20px; margin-top: 8px;"><img style="border-radius: 7px;" src="assets/images/Sai_in_shop.jpg" /></div>
+<div style="float: left; width: 200px; margin-right: 20px; margin-top: 8px;"><img style="border-radius: 7px;" src="assets/images/Sai_Toronto.jpg" /></div>
 <div style="float: left; width: 375px;  margin-top: 28px;">
    <p>I'm a research fellow working with <a href="http://research.microsoft.com/en-us/um/people/thies/">Bill Thies</a> at the <a href="http://research.microsoft.com/en-us/groups/tem/">Technologies for Emerging Markets group </a> in Microsoft Researh India. 
    Prior to this, I graduated with a masters from both Universite Paris-Sud and TU-Berlin. <p> During my masters, I worked as a research assistant and finished my thesis with <a href="http://www.patrickbaudisch.com/"> Prof. Patrick Baudisch </a> and <a href="http://stefaniemueller.org/">Stefanie Mueller</a> in the <a href="http://hpi.de/baudisch/home.html"> HCI lab </a> at <a href="http://hpi.de"> Hasso-Plattner Institut</a>. 
