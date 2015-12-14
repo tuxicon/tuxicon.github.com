@@ -2,7 +2,6 @@
 http://tuxicon.github.io/pages/Emojah.html
 http://tuxicon.github.io/pages/Hvizgarden.html
 http://tuxicon.github.io/pages/Turkbench.html
-http://tuxicon.github.io/pages/about.html
 http://tuxicon.github.io/pages/archive.html
 http://tuxicon.github.io/atom.xml
 http://tuxicon.github.io/categories.html
@@ -15,6 +14,7 @@ http://tuxicon.github.io/pages/pages.html
 http://tuxicon.github.io/pages/pimtouch.html
 http://tuxicon.github.io/pages/pimtouch.txt
 http://tuxicon.github.io/pages/projects.html
+http://tuxicon.github.io/pages/pubs.html
 http://tuxicon.github.io/rss.xml
 http://tuxicon.github.io/sitemap.txt
 http://tuxicon.github.io/tags.html
