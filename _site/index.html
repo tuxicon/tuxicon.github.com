@@ -19,7 +19,16 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128662876-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-128662876-1');
+</script>
+ 
 
   <style></style>
 </head>
@@ -27,9 +36,9 @@
   <nav class="navbar">
     <div class="container">
       <ul class="navbar-list">
-        <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
         <li class="navbar-item"><a class="navbar-link" href="#research">Research</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="pdfs/Sai_new_CV.pdf">CV</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="pdfs/Sai_CV.pdf">CV</a></li>
          <li class="navbar-item navbar-right"><a href="http://www.cmu.edu/" target="_blank"><img src="images/CMU.jpg" alt="CMU logo"  height="62"/></a></li>
          <li class="navbar-item navbar-right"><a href="http://www.hcii.cmu.edu/" target="_blank"><img src="images/hcii.png" alt="HCII logo"  height="62"/></a></li>
       </ul>
@@ -54,9 +63,10 @@
         <h2>Sai Ganesh Swaminathan </h2>
         
         <p>I'm currently a Ph.D. Student  at Carnegie Mellon University at the <a href="http://www.hcii.cmu.edu/" target="_blank"> Human-Computer Interaction Insitute</a>, advised by <a href="http://www.scotthudson.com" target="_blank">Scott Hudson</a>. I am part of the <a href="https://hcidevlab.com/">Devlab</a>.</p> 
-        <p> Over the past few years, I have worked a wide range of topics, building systems in domains such as interactive digital fabrication, crowdsourcing and visualizations. My <strong> core research interests </strong> has always been to invent novel <strong> interactive tools and systems </strong> that expand human capabilities in interesting ways.</p>
 
-        <p> In my PhD research, I've focused on additive manufacturing of printed electronics. Specifically looking at processing innovations that enable a new class of multi-functional composites for designing custom interactive electronic devices and assistive technologies.</p>
+        <p> In my PhD research, I've focused on additive manufacturing of printed composites. Specifically looking at material processing innovations that enable a new class of multi-functional composites for designing custom interactive electronic devices and assistive technologies.</p>
+
+        <p> Over the last few years, I have worked on a wide range of topics, building systems in domains such as interactive digital fabrication, crowdsourcing and visualizations in both industrial and academic research labs. My <strong> core research interests </strong> has always been to invent novel <strong> interactive systems, devices and tools </strong> that expand human capabilities in interesting ways.</p>
         <!-- <p>At CMU, I'm currently looking at building crowd powered systems and how to make crowd work more accessible and inclusive.</p> -->
 
         <div class="row contact" style="margin-bottom:1em; margin-left: 0;">
@@ -75,27 +85,35 @@
       </div>
     </div>
     
-    <div class="row" id ="about"  style="padding-top: 2em;">
-      <div class="twelve columns">
-        <h4>About</h4>
-        <p>
-          I joined the graduate program of <strong>CMU</strong> on August 2016.
-        </p>
-        <p>
-          In the past, I completed my masters in Europe studying at both <strong>Technische Universität Berlin</strong> and <strong> Université Paris-Sud </strong>. While in Europe I worked as a research assistant in <a href="http://www.aviz.fr/"> Aviz </a> (Analytics and Visualization Lab) with <a href="https://www.lri.fr/~dragice/"> Pierre Dragicevic </a> and at <a href="http://hpi.de/baudisch/home.html"> HCI lab </a> in HPI (Hasso-Plattner Institute) with <a href="http://www.patrickbaudisch.com/"> Patrick Baudisch </a> and <a href="http://stefaniemueller.org/">Stefanie Mueller</a>. 
-        </p>
-          After my masters, I moved to <a href="http://research.microsoft.com/en-us/groups/tem/">Technologies for Emerging Markets group </a> at <strong>Microsoft Research India</strong>  where I worked with <a href="http://research.microsoft.com/en-us/um/people/thies/">Bill Thies</a> and <a href="https://research.microsoft.com/en-us/um/people/cutrell/">Ed Cutrell</a> as a Research Fellow. 
-        </p>
-        
-        <a href="#" class="button expand">Show more</a>
-        <div>
-          <p></p>
-        </div>
-      </div>
-    </div>
     <div class="row" id ="research"  style="padding-top: 2em;">
       <div class="twelve columns">
         <h4>Select Projects</h4>
+            <div class="publication publication-info" >
+
+                  <div class="row" style="margin-left: 0;">
+                  <div class="four columns" style="margin-top: 3%;">
+                  <img src="images/projects/handle_bar_carbon_fiber.png" alt="carbon-fiber-composites" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
+
+
+                  </div>  
+                  <div class="eight columns" style="margin-top: 2%;">
+    
+                  <div class="row" >
+                    <b class="publication-title">
+                    <a href="" target="_blank"><u>FiberPrint: 3D Printing Mechanically Strong, Lightweight Carbon-Fiber Composite Devices with Embedded Electronic Function</u></a></b>
+                  </div>
+                  <div class="row" > <strong>Saiganesh Swaminathan</strong>, Kadri Bugra Ozutemiz, Carmel Majidi, and Scott Hudson</div>
+                  <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" >In proceedings of [CHI'19] (to appear)</span></div>
+                  <div class="row">&nbsp</div>
+                  <div class="row" style="margin-bottom: 2px;"><a href="" target="_blank">[<u>more coming soon</u>]</a></div>
+                  <div class="row" style=""><u><a href=""><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span></div>
+                  <div class="row">&nbsp</div>
+
+
+                </div>
+              </div>
+              </div>
+
               <div class="publication publication-info" >
 
                   <div class="row" style="margin-left: 0;">
@@ -199,11 +217,29 @@
 </div>
       </div>
     </div>
+        <div class="row" id ="about"  style="padding-top: 2em;">
+      <div class="twelve columns">
+        <h4>About</h4>
+        <p>
+          I joined the graduate program of <strong>CMU</strong> on August 2016.
+        </p>
+        <p>
+          In the past, I completed my masters in Europe studying at both <strong>Technische Universität Berlin</strong> and <strong> Université Paris-Sud </strong>. While in Europe I worked at various places in Europe such as the <a href="http://hpi.de/baudisch/home.html"> HCI lab </a> at <a href="http://hpi.de/">Hasso-Plattner Institut</a> with  <a href="http://www.patrickbaudisch.com/"> Patrick Baudisch </a> and <a href="http://stefaniemueller.org/">Stefanie Mueller</a>, Work Practice Technology group at Xerox Research, <a href="http://www.aviz.fr/">Analytics and Visualization</a> (Aviz) lab at  <a href="http://www.inria.fr/centre/saclay"> INRIA-Saclay </a> with  <a href="https://www.lri.fr/~dragice/"> Pierre Dragicevic </a>.
+        </p>
+          After my masters, I moved to <a href="http://research.microsoft.com/en-us/groups/tem/">Technologies for Emerging Markets group </a> at <strong>Microsoft Research</strong>  where I worked with <a href="http://research.microsoft.com/en-us/um/people/thies/">Bill Thies</a> and <a href="https://research.microsoft.com/en-us/um/people/cutrell/">Ed Cutrell</a> as a Research Fellow.        
+        </p>
+        
+        <a href="#" class="button expand">Show more</a>
+        <div>
+          <p></p>
+        </div>
+      </div>
+    </div>
     <div class="row" id ="awards"  style="margin-left: 0; padding-top: 2em;">
       <div class="twelve columns">
         <h4>CV</h4>
         <ul>
-          <li>Here is a link to my <a href="pdfs/Sai_new_CV.pdf">CV</a></li>
+          <li>Here is a link to my <a href="pdfs/Sai_CV.pdf">CV</a></li>
         </ul>
       </div>
     </div>
