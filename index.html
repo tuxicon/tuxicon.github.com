@@ -11,12 +11,12 @@
   
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.css">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
-      rel="stylesheet">
-  <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -35,12 +35,12 @@
 <body>
   <nav class="navbar">
     <div class="container">
-      <ul class="navbar-list">
-        <li class="navbar-item"><a class="navbar-link" href="#research">Research</a></li>
+      <ul class="navbar-list" id="leftnav">
+          <li class="navbar-item mr-5" id="name"><a class="navbar-link" href="www.saiganesh.net">Sai Ganesh Swaminathan</a></li></ul>
+          <ul class="navbar-list" id="rightnav"><li class="navbar-item"><a class="navbar-link" href="#research">Research</a></li>
         <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="pdfs/Sai_CV.pdf">CV</a></li>
-         <li class="navbar-item navbar-right"><a href="http://www.cmu.edu/" target="_blank"><img src="images/CMU.jpg" alt="CMU logo"  height="62"/></a></li>
-         <li class="navbar-item navbar-right"><a href="http://www.hcii.cmu.edu/" target="_blank"><img src="images/hcii.png" alt="HCII logo"  height="62"/></a></li>
+              <li class="navbar-item"><a class="navbar-link" href="#about">Side Projects</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="pdfs/Sai_CV.pdf">CV</a></li>
       </ul>
     </div>
   </nav>
@@ -60,11 +60,11 @@
       </div>
 
       <div class="eight columns" style="margin-top: 2%;">
-        <h2>Sai Ganesh Swaminathan </h2>
-        
-        <p>I'm currently a Ph.D. Student  at Carnegie Mellon University at the <a href="http://www.hcii.cmu.edu/" target="_blank"> Human-Computer Interaction Insitute</a>, advised by <a href="http://www.scotthudson.com" target="_blank">Scott Hudson</a>. I am part of the <a href="https://hcidevlab.com/">Devlab</a>.</p> 
+          <p style="font-size:20px; font-weight: 600">I'm a Ph.D. Student in <a href="https://www.hcii.cmu.edu/">HCI Institute</a> at <a href="https://www.cs.cmu.edu/">School of Computer Science</a> in <a href="https://www.cmu.edu/">Carnegie Mellon University</a>. I'm advised by <a href="http://www.scotthudson.com" target="_blank">Scott Hudson</a> </p>
+          <h5>Computational Building Materials</h5>
+          <p>My inspiration is the promise of ubiquitous computing. Unfortunately, this vision is not yet realized due to our traditional views on how computing devices are manufactured today. They are still power-hungry, not seamlessly integrated, nor have been made with materials we see around us. We need to think more creatively about how computing devices are made today. If computers are to be omnipresent, they should be better integrated into our built environments, spaces where we spend most (87%) of our time.</p>
 
-        <p>I work on enabling advanced manufacturing of large-scale interactive structures. </p>
+          <p> In my research, I focus on ways to manufacture interactive computational devices with building materials such as fiber-composites, cementious composites, engineered ceramics etc. To realize this vision, I introduce novel advanced manufacturing techniques with 3D Printing, hybrid manufacturing and direct-ink-writing.</p>
 
         <!-- <p> In my PhD research, I work on advanced manufacturing of large-scale interactive strcutures. I approach the problem with two equally rigourous angles. First, I invent novel structural material processing approaches for 3D printing of multi-functional composites, ceramics, etc. Second, I look at embedding sensors & actuator assemblies in the fabrication process for creating room-scale interactive structures that are responsive to human input and activities</p>
  -->
@@ -82,172 +82,169 @@
                 <div style="float:left; display:inline-block;">saiganes<span style="display:none;">mymail</span></div>
               </div>
             </div>
+
+
           </div>
         </div>
+        <div class="row" id ="research">
+              <div class="twelve columns">
+                  <h4>Research Projects</h4>
+                  <div class="publication publication-info" >
+
+                      <div class="row" style="margin-left: 0;">
+                          <div class="four columns" style="margin-top: 3%;">
+                              <img src="images/projects/deployable.jpg" alt="deployablestructures" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
+
+
+                          </div>
+                          <div class="eight columns" style="margin-top: 2%;">
+
+                              <div class="row" >
+                                  <b class="publication-title">
+                                      <a href="pdfs/imwut19-inflatables.pdf" target="_blank"><u>Input, Output and Construction Methods for Custom Fabrication of Room-Scale Deployable Pneumatic Structures</u></a></b>
+                              </div>
+                              <div class="row" ><strong>Saiganesh Swaminathan</strong>,Michael L. Rivera, Runchang Kang, Zheng Luo, Kadri B. Ozutemiz, and Scott E. Hudson.</div>
+                              <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" >In proceedings of [UBICOMP'19] (to appear)</span></div>
+                              <div class="row">&nbsp</div>
+                              <div class="row" style="margin-bottom: 2px;"><a href="" target="_blank">[<u>more coming soon</u>]</a></div>
+                              <!-- <div class="row" style=""><u><a href=""><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span></div>
+                              <div class="row">&nbsp</div> -->
+
+
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="publication publication-info" >
+
+                      <div class="row" style="margin-left: 0;">
+                          <div class="four columns" style="margin-top: 3%;">
+                              <img src="images/projects/handle_bar_carbon_fiber.png" alt="carbon-fiber-composites" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
+
+
+                          </div>
+                          <div class="eight columns" style="margin-top: 2%;">
+
+                              <div class="row" >
+                                  <b class="publication-title">
+                                      <a href="pdfs/FiberWire-CHI2019.pdf" target="_blank"><u>FiberPrint: 3D Printing Mechanically Strong, Lightweight Carbon-Fiber Composite Devices with Embedded Electronic Function</u></a></b>
+                              </div>
+                              <div class="row" > <strong>Saiganesh Swaminathan</strong>, Kadri Bugra Ozutemiz, Carmel Majidi, and Scott Hudson</div>
+                              <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" >In proceedings of [CHI'19] (paper)</span></div>
+                              <div class="row">&nbsp</div>
+                              <div class="row" style="margin-bottom: 2px;">3D printing offers significant potential in creating highly customized interactive and functional objects. However, at present ability to manufacture functional objects is limited by available materials (e.g., various polymers) and their process properties. In this paper, we introduce a set of techniques we call FiberWire, which leverages a novel capability to 3D print mechanically strong and light weight carbon fiber composite objects with embedded circuitry and sensing function. We show a range of examples like a bicycle handle bar with interactive controls, a swing and impact sensing golf club and an interactive game controller. Please read paper for more details. </a></div>
+                              <!-- <div class="row" style=""><u><a href=""><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span></div>
+                              <div class="row">&nbsp</div> -->
+                              <div class="row" style=""><u><a href="pdfs/FiberWire-CHI2019.pdf"><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span><u><a href=""><img src="images/icons/youtube.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Video (coming soon) </img></u></a><span style="margin-right: 10px;"></span><u><a href=""><img src="images/icons/powerpoint.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Slides (coming soon)</img></u></a></div>
+
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="publication publication-info" >
+
+                      <div class="row" style="margin-left: 0;">
+                          <div class="four columns" style="margin-top: 3%;">
+                              <img src="images/projects/wearmail_crop.png" alt="Saiganesh Swaminathan" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
+
+                          </div>
+                          <div class="eight columns" style="margin-top: 2%;">
+
+                              <div class="row" >
+                                  <b class="publication-title">
+                                      <a href="pdfs/wearmail-uist2017.pdf" target="_blank"><u>WearMail: On-the-Go Access to Information in Your Email with a Privacy-Preserving Human Computation Workflow</u></a></b>
+                              </div>
+                              <div class="row" ><strong>Saiganesh Swaminathan</strong>, Raymond Fok, Fanglin Chen, Ting-Hao (Kenneth) Huang, Irene Lin, Rohan Jadvani, Walter S. Lasecki, Jeffrey P. Bigham</div>
+                              <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" > In proceedings of [UIST'17] (Paper)</span></div>
+                              <div class="row">&nbsp</div>
+                              <div class="row" style="margin-bottom: 2px;">Email is more than just a communication medium. Email serves as an external memory for people—it contains our reservation numbers, meeting details, phone numbers, and more. Often, people need access to this information while on the go, which is cumbersome from mobile devices with limited I/O bandwidth. In this paper, we introduce WearMail, a conversational interface to retrieve specific information in email. WearMail is mostly automated but is made robust to information extraction tasks via a novel privacy-preserving human computation workflow. <a>[<u>more coming soon</u>]</a></div>
+                              <div class="row" style=""><u><a href="pdfs/wearmail-uist2017.pdf"><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span><span style="margin-right: 10px;"></span><u><a href="pdfs/uist-2017-wearmail-presentation.pptx"><img src="images/icons/powerpoint.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Slides</img></u></a></div>
+                              <div class="row">&nbsp</div>
+
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="publication publication-info" >
+
+                      <div class="row" style="margin-left: 0;">
+                          <div class="four columns" style="margin-top: 3%;">
+                              <img src="images/projects/linespace.jpg" alt="Saiganesh Swaminathan" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
+
+                          </div>
+                          <div class="eight columns" style="margin-top: 2%;">
+
+                              <div class="row" >
+                                  <b class="publication-title">
+                                      <a href="pdfs/Linespace-CHI2016.pdf" target="_blank"><u>Linespace: a sensemaking platform for blind</u></a></b>
+                              </div>
+                              <div class="row" ><strong>Saiganesh Swaminathan</strong>, Thijs Roumen, Robert Kovacs, David Stangl, Stefanie Mueller and Patrick Baudisch</div>
+                              <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" > In proceedings of [CHI'16] (Paper)</span></div>
+                              <div class="row">&nbsp</div>
+                              <div class="row" style="margin-bottom: 2px;">For visually impaired users, making sense of spatial information is difficult as they have to scan and memorize contents before being able to analyze it. Even worse, any update to the displayed contents invalidates their spatial memory, which can force them to manually rescan the entire display. Making display contents persist, we argue, is thus the highest priority in designing a sensemaking system for the visually impaired. We present a tactile display system based on a 3D printer that is designed with this goal in mind. <a>[<u>more coming soon</u>]</a></div>
+                              <div class="row" style=""><u><a href="pdfs/Linespace-CHI2016.pdf"><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span><u><a href="https://www.youtube.com/watch?v=9O_83U7P3bM"><img src="images/icons/youtube.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Video</img></u></a><span style="margin-right: 10px;"></span><u><a href="pdfs/chi-2016-linespace-presentation.pptx"><img src="images/icons/powerpoint.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Slides</img></u></a><span style="margin-right: 10px;"></span><u><a href="https://www.newscientist.com/article/2076693-3d-printed-display-lets-blind-people-explore-images-by-touch/"><img src="images/icons/news.png" style="margin-bottom: 10px; height: 20px; width: 20px;">New Scientist</img></u></a><span style="margin-right: 10px;"></span><u><a href="http://makezine.com/2016/02/23/linespace-prints-tactile-maps-blind/"><img src="images/icons/news.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Make Magzine</img></u></a><span style="margin-right: 10px;"></span></div>
+                              <div class="row">&nbsp</div>
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="publication publication-info" >
+                      <div class="row" style="margin-left: 0;">
+                          <div class="four columns" style="margin-top: 3%;">
+                              <img src="images/projects/turkbench2.png" alt="Saiganesh Swaminathan" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
+                          </div>
+                          <div class="eight columns" style="margin-top: 2%;">
+                              <div class="row" >
+                                  <b class="publication-title">
+                                      <a href="pdfs/TurkBench-CHI2015.pdf" target="_blank"><u>TurkBench: Rendering the Market for Turkers</u></a></b>
+                              </div>
+                              <div class="row" >Benjamin V. Hanrahan, Jutta K. Willamowski,<strong>Saiganesh Swaminathan</strong>, and David B. Martin</div>
+                              <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" >In proceedings of [CHI'15] (Note)</span></div>
+                              <div class="row">&nbsp</div>
+                              <div class="row" style="margin-bottom: 2px;">Crowdworkers face a numerous challenges in turking in online labor markerts.  We built a tool TurkBench that provides workers with a personalized market visualization and session management to help them navigate the market efficiently.<a href="" target="_blank">[<u>more coming soon</u>]</a></div>
+                              <div class="row" style=""><u><a href="pdfs/TurkBench-CHI2015.pdf"><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span></div>
+                              <div class="row">&nbsp</div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="publication publication-info" >
+
+                      <div class="row" style="margin-left: 0;">
+                          <div class="four columns" style="margin-top: 3%;">
+                              <img src="images/projects/makervis.png" alt="Saiganesh Swaminathan" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%; margin-bottom:5px; ">
+                              <img src="images/projects/makervis2.png" alt="Saiganesh Swaminathan" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
+                          </div>
+                          <div class="eight columns" style="margin-top: 2%;">
+
+                              <div class="row" >
+                                  <b class="publication-title">
+                                      <a href="pdfs/MakerVis-CHI2014.pdf" target="_blank"><u>Supporting The Design and Fabrication of Physical Visualizations</u></a></b>
+                              </div>
+                              <div class="row" ><strong>Saiganesh Swaminathan</strong>, Conglei Shi, Yvonne Jansen, Pierre Dragicevic, Lora Oehlberg, Jean-Daniel Fekete.</div>
+                              <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" > In proceedings of [CHI'14] (Full paper)</span></div>
+                              <div class="row">&nbsp</div>
+                              <div class="row" style="margin-bottom: 2px;">An increasing variety of physical visualizations are being built. However, crafting them remains a laborious process and demands expertise in both data visualization and digital fabrication. We present the MakerVis prototype, the first tool that integrates the whole workflow, from data filtering to physical fabrication.<a href="" target="_blank">[<u>more coming soon</u>]</a></div>
+                              <div class="row" style=""><u><a href="pdfs/MakerVis-CHI2014.pdf"><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span><u><a href="https://www.youtube.com/watch?v=hguDrmmLXVI"><img src="images/icons/youtube.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Video</img></u></a><span style="margin-right: 10px;"></span><u><a href="pdfs/chi-2014-makervis-presentation.pptx"><img src="images/icons/powerpoint.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Slides</img></u></a><span style="margin-right: 10px;"></span></div>
+
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <a href="#" class="button expand">Show work in progress</a>
+                  <div style="margin-top: 2em;">
+
+                  </div>
+              </div>
+          </div>
       </div>
     </div>
     
-    <div class="row" id ="research"  style="padding-top: 2em;">
+
+      <p><h4>About</h4></p>
+      <div class="row" id ="about"  style="padding-top: 2em;">
       <div class="twelve columns">
-        <h4>Select Projects</h4>
-             <div class="publication publication-info" >
-
-                  <div class="row" style="margin-left: 0;">
-                  <div class="four columns" style="margin-top: 3%;">
-                  <img src="images/projects/deployable.jpg" alt="deployablestructures" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
-
-
-                  </div>  
-                  <div class="eight columns" style="margin-top: 2%;">
-    
-                  <div class="row" >
-                    <b class="publication-title">
-                    <a href="pdfs/imwut19-inflatables.pdf" target="_blank"><u>Input, Output and Construction Methods for Custom Fabrication of Room-Scale Deployable Pneumatic Structures</u></a></b>
-                  </div>
-                  <div class="row" > <strong>Saiganesh Swaminathan</strong>, Michael L. Rivera, Runchang Kang, Zheng Luo, Kadri B. Ozutemiz, and Scott E. Hudson.</div>
-                  <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" >In proceedings of [UBICOMP'19] (to appear)</span></div>
-                  <div class="row">&nbsp</div>
-                  <div class="row" style="margin-bottom: 2px;"><a href="" target="_blank">[<u>more coming soon</u>]</a></div>
-                  <!-- <div class="row" style=""><u><a href=""><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span></div>
-                  <div class="row">&nbsp</div> -->
-
-
-                </div>
-              </div>
-              </div>
-
-            <div class="publication publication-info" >
-
-                  <div class="row" style="margin-left: 0;">
-                  <div class="four columns" style="margin-top: 3%;">
-                  <img src="images/projects/handle_bar_carbon_fiber.png" alt="carbon-fiber-composites" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
-
-
-                  </div>  
-                  <div class="eight columns" style="margin-top: 2%;">
-    
-                  <div class="row" >
-                    <b class="publication-title">
-                    <a href="pdfs/FiberWire-CHI2019.pdf" target="_blank"><u>FiberPrint: 3D Printing Mechanically Strong, Lightweight Carbon-Fiber Composite Devices with Embedded Electronic Function</u></a></b>
-                  </div>
-                  <div class="row" > <strong>Saiganesh Swaminathan</strong>, Kadri Bugra Ozutemiz, Carmel Majidi, and Scott Hudson</div>
-                  <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" >In proceedings of [CHI'19] (paper)</span></div>
-                  <div class="row">&nbsp</div>
-                  <div class="row" style="margin-bottom: 2px;">3D printing offers significant potential in creating highly customized interactive and functional objects. However, at present ability to manufacture functional objects is limited by available materials (e.g., various polymers) and their process properties. In this paper, we introduce a set of techniques we call FiberWire, which leverages a novel capability to 3D print mechanically strong and light weight carbon fiber composite objects with embedded circuitry and sensing function. We show a range of examples like a bicycle handle bar with interactive controls, a swing and impact sensing golf club and an interactive game controller. Please read paper for more details. </a></div>
-                  <!-- <div class="row" style=""><u><a href=""><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span></div>
-                  <div class="row">&nbsp</div> -->
-                  <div class="row" style=""><u><a href="pdfs/FiberWire-CHI2019.pdf"><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span><u><a href=""><img src="images/icons/youtube.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Video (coming soon) </img></u></a><span style="margin-right: 10px;"></span><u><a href=""><img src="images/icons/powerpoint.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Slides (coming soon)</img></u></a></div>
-
-                </div>
-              </div>
-              </div>
-
-              <div class="publication publication-info" >
-
-                  <div class="row" style="margin-left: 0;">
-                  <div class="four columns" style="margin-top: 3%;">
-                  <img src="images/projects/wearmail_crop.png" alt="Saiganesh Swaminathan" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
-
-                  </div>  
-                  <div class="eight columns" style="margin-top: 2%;">
-    
-                  <div class="row" >
-                    <b class="publication-title">
-                    <a href="pdfs/wearmail-uist2017.pdf" target="_blank"><u>WearMail: On-the-Go Access to Information in Your Email with a Privacy-Preserving Human Computation Workflow</u></a></b>
-                  </div>
-                  <div class="row" ><strong>Saiganesh Swaminathan</strong>, Raymond Fok, Fanglin Chen, Ting-Hao (Kenneth) Huang, Irene Lin, Rohan Jadvani, Walter S. Lasecki, Jeffrey P. Bigham</div>
-                  <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" > In proceedings of [UIST'17] (Paper)</span></div>
-                  <div class="row">&nbsp</div>
-                  <div class="row" style="margin-bottom: 2px;">Email is more than just a communication medium. Email serves as an external memory for people—it contains our reservation numbers, meeting details, phone numbers, and more. Often, people need access to this information while on the go, which is cumbersome from mobile devices with limited I/O bandwidth. In this paper, we introduce WearMail, a conversational interface to retrieve specific information in email. WearMail is mostly automated but is made robust to information extraction tasks via a novel privacy-preserving human computation workflow. <a>[<u>more coming soon</u>]</a></div>
-                  <div class="row" style=""><u><a href="pdfs/wearmail-uist2017.pdf"><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span><span style="margin-right: 10px;"></span><u><a href="pdfs/uist-2017-wearmail-presentation.pptx"><img src="images/icons/powerpoint.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Slides</img></u></a></div>
-                  <div class="row">&nbsp</div>
-
-                </div>
-              </div>
-              </div>
-                
-                <div class="publication publication-info" >
-
-                  <div class="row" style="margin-left: 0;">
-                  <div class="four columns" style="margin-top: 3%;">
-                  <img src="images/projects/linespace.jpg" alt="Saiganesh Swaminathan" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
-
-                  </div>  
-                  <div class="eight columns" style="margin-top: 2%;">
-    
-                  <div class="row" >
-                    <b class="publication-title">
-                    <a href="pdfs/Linespace-CHI2016.pdf" target="_blank"><u>Linespace: a sensemaking platform for blind</u></a></b>
-                  </div>
-                  <div class="row" ><strong>Saiganesh Swaminathan</strong>, Thijs Roumen, Robert Kovacs, David Stangl, Stefanie Mueller and Patrick Baudisch</div>
-                  <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" > In proceedings of [CHI'16] (Paper)</span></div>
-                  <div class="row">&nbsp</div>
-                  <div class="row" style="margin-bottom: 2px;">For visually impaired users, making sense of spatial information is difficult as they have to scan and memorize contents before being able to analyze it. Even worse, any update to the displayed contents invalidates their spatial memory, which can force them to manually rescan the entire display. Making display contents persist, we argue, is thus the highest priority in designing a sensemaking system for the visually impaired. We present a tactile display system based on a 3D printer that is designed with this goal in mind. <a>[<u>more coming soon</u>]</a></div>
-                  <div class="row" style=""><u><a href="pdfs/Linespace-CHI2016.pdf"><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span><u><a href="https://www.youtube.com/watch?v=9O_83U7P3bM"><img src="images/icons/youtube.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Video</img></u></a><span style="margin-right: 10px;"></span><u><a href="pdfs/chi-2016-linespace-presentation.pptx"><img src="images/icons/powerpoint.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Slides</img></u></a><span style="margin-right: 10px;"></span><u><a href="https://www.newscientist.com/article/2076693-3d-printed-display-lets-blind-people-explore-images-by-touch/"><img src="images/icons/news.png" style="margin-bottom: 10px; height: 20px; width: 20px;">New Scientist</img></u></a><span style="margin-right: 10px;"></span><u><a href="http://makezine.com/2016/02/23/linespace-prints-tactile-maps-blind/"><img src="images/icons/news.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Make Magzine</img></u></a><span style="margin-right: 10px;"></span></div>
-                  <div class="row">&nbsp</div>
-
-                </div>
-              </div>
-              </div>
-              <div class="publication publication-info" >
-
-                  <div class="row" style="margin-left: 0;">
-                  <div class="four columns" style="margin-top: 3%;">
-                  <img src="images/projects/turkbench2.png" alt="Saiganesh Swaminathan" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
-
-
-                  </div>  
-                  <div class="eight columns" style="margin-top: 2%;">
-    
-                  <div class="row" >
-                    <b class="publication-title">
-                    <a href="pdfs/TurkBench-CHI2015.pdf" target="_blank"><u>TurkBench: Rendering the Market for Turkers</u></a></b>
-                  </div>
-                  <div class="row" >Benjamin V. Hanrahan, Jutta K. Willamowski,<strong>Saiganesh Swaminathan</strong>, and David B. Martin</div>
-                  <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" >In proceedings of [CHI'15] (Note)</span></div>
-                  <div class="row">&nbsp</div>
-                  <div class="row" style="margin-bottom: 2px;">Crowdworkers face a numerous challenges in turking in online labor markerts.  We built a tool TurkBench that provides workers with a personalized market visualization and session management to help them navigate the market efficiently.<a href="" target="_blank">[<u>more coming soon</u>]</a></div>
-                  <div class="row" style=""><u><a href="pdfs/TurkBench-CHI2015.pdf"><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span></div>
-                  <div class="row">&nbsp</div>
-
-
-                </div>
-              </div>
-              </div>
-
-              <div class="publication publication-info" >
-
-                  <div class="row" style="margin-left: 0;">
-                  <div class="four columns" style="margin-top: 3%;">
-                  <img src="images/projects/makervis.png" alt="Saiganesh Swaminathan" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%; margin-bottom:5px; ">
-                  <img src="images/projects/makervis2.png" alt="Saiganesh Swaminathan" style="box-shadow: 0 15px 15px -15px; border-radius: 5px; max-width: 100%;  ">
-                  </div>  
-                  <div class="eight columns" style="margin-top: 2%;">
-    
-                  <div class="row" >
-                    <b class="publication-title">
-                    <a href="pdfs/MakerVis-CHI2014.pdf" target="_blank"><u>Supporting The Design and Fabrication of Physical Visualizations</u></a></b>
-                  </div>
-                  <div class="row" ><strong>Saiganesh Swaminathan</strong>, Conglei Shi, Yvonne Jansen, Pierre Dragicevic, Lora Oehlberg, Jean-Daniel Fekete.</div>
-                  <div class="row" ><span style="padding-right: 4px; padding-top: 2px;display:block;float: left;text-align:right; font-size: 0.9em; color: #777;" > In proceedings of [CHI'14] (Full paper)</span></div>
-                  <div class="row">&nbsp</div>
-                  <div class="row" style="margin-bottom: 2px;">An increasing variety of physical visualizations are being built. However, crafting them remains a laborious process and demands expertise in both data visualization and digital fabrication. We present the MakerVis prototype, the first tool that integrates the whole workflow, from data filtering to physical fabrication.<a href="" target="_blank">[<u>more coming soon</u>]</a></div>
-                  <div class="row" style=""><u><a href="pdfs/MakerVis-CHI2014.pdf"><img src="images/icons/pdf1.png" style="margin-bottom: 10px; height: 20px; width: 20px;">Paper</img></a></u><span style="margin-right: 10px;"></span><u><a href="https://www.youtube.com/watch?v=hguDrmmLXVI"><img src="images/icons/youtube.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Video</img></u></a><span style="margin-right: 10px;"></span><u><a href="pdfs/chi-2014-makervis-presentation.pptx"><img src="images/icons/powerpoint.png" style=" margin-bottom: 10px; height: 20px; width: 20px;">Slides</img></u></a><span style="margin-right: 10px;"></span></div>
-
-                </div>
-              </div>
-              </div>
-
-
-<a href="#" class="button expand">Show work in progress</a>
-<div style="margin-top: 2em;">
-
-</div>
-      </div>
-    </div>
-        <div class="row" id ="about"  style="padding-top: 2em;">
-      <div class="twelve columns">
-        <h4>About</h4>
         <p>
           I joined the graduate program of <strong>CMU</strong> on August 2016.
         </p>
