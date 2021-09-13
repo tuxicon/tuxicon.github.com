@@ -14,13 +14,13 @@ Human-Computer Interaction, Ubiquitous Computing, Computational Materials Manufa
 including ACM CHI, IMWUT (UbiComp), UIST, and CSCW, winning best honorable mention
 award and has also featured on news outlets like New Scientist, Makezine, etc. 
 
-I have also been a part of research teams at numberous instituitions such as the <a href="https://www.ornl.gov/division/manufacturing-science"> Manufacturing Science group </a> at <a href="https://www.ornl.gov"> Oakridge National
+I have also been a part of research teams at numerous institutions such as the <a href="https://www.ornl.gov/division/manufacturing-science"> Manufacturing Science group </a> at <a href="https://www.ornl.gov"> Oakridge National
 Lab (ORNL) </a>, <a href="http://research.microsoft.com/en-us/groups/tem/">Microsoft Research</a>,  <a href="http://hpi.de/baudisch/home.html"> HPI </a>,  <a href="http://www.inria.fr/centre/saclay"> INRIA </a>, and Xerox Research. Prior to my
 Ph.D, I completed a dual degree master’s from Technical University of Berlin and
 Universite Paris-Sud XI.
 
 <h5 id="rs"> Research Vision: </h5>
-<h5> Interactive Computational Materials for the Networked Built Envrionment </h5>
+<h5> Interactive Computational Materials for the Networked Built Environment </h5>
 ------
 
 The key idea of ubiquitous computing is that as computers get miniaturized and powerful, they can be applied cheaply to digitize the physical infrastructure such as rooms, buildings, bridges, structures, neighborhoods, and cities into cyberspace. Unfortunately, this vision is not entirely realized due to end of end of Moore’s law and Dennard scaling. As a result, our devices remain power-hungry, are not seamlessly integrated, and continue to be manufactured using yesterday’s design ideas and technology. To date, the focus of device manufacturing has been on miniaturization and packing the most functionality into the smallest form factors, even though our physical infrastructure is much larger in scale. Miniaturized devices need to be deployed in massive quantities to enable interactivity in the built environment (buildings, sidewalks, etc.), leading to unsustainable power consumption as the many devices require numerous batteries. 
@@ -110,7 +110,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
         </div>
         <div class="carousel-item">
             <p>
-                <a href="/files/imwut19-inflatables.pdf">Computational deployable structures</a> demonstrates a range of techniques, design primitives for creating custom actuated large-scale pneumatic strcutures. We utilized materials used in space structures like flexible fabrics with pre-stressed patterns to enable actuation at a larger scale. The manufactured structures can self-deploy and provide inherent actuation and sensing capabilities engineered within textile materials.
+                <a href="/files/imwut19-inflatables.pdf">Computational deployable structures</a> demonstrates a range of techniques, design primitives for creating custom actuated large-scale pneumatic structures. We utilized materials used in space structures like flexible fabrics with pre-stressed patterns to enable actuation at a larger scale. The manufactured structures can self-deploy and provide inherent actuation and sensing capabilities engineered within textile materials.
             </p>
             <div class="row">
         		<div class="col-sm col-xs-8">
@@ -134,7 +134,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
             </div>
         </div>
         <div class="carousel-item">
-            <p> <a href=" /files/FiberWire-CHI2019.pdf "> Fiberwire </a> project demonstrates a method for engineering structural materials, like a carbon-fiber composite, to transmit electrical signals at a low loss and create composite objects with inherent circuitry and sensing
+            <p> <a href=" /files/FiberWire-CHI2019.pdf "> FiberWire </a> project demonstrates a method for engineering structural materials, like a carbon-fiber composite, to transmit electrical signals at a low loss and create composite objects with inherent circuitry and sensing
                 capability via 3D printing. This system manufactures computational composite objects that perform sensing even while bearing large impact forces of 4000 lbs under extreme mechanical conditions.</p>
             <div class="row">
         		<div class="col-sm col-xs-8">
