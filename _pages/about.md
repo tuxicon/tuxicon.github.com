@@ -8,14 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. Candidate at the Human-Computer Interaction Institute in the School of Computer Science of
-Carnegie Mellon University. I'm advised by Scott Hudson in the Devlab. I work at the intersection of
+I'm a Ph.D. Candidate at the <a href="http://www.hcii.cmu.edu/">  Human-Computer Interaction Institute </a> in the <a href="https://www.cs.cmu.edu/"> School of Computer Science </a> of
+<a href="www.cmu.edu"> Carnegie Mellon University </a>. I'm advised by <a href="http://www.scotthudson.com" target="_blank">Scott Hudson</a> in the <a href="https://cmu-devlab.github.io/"> Devlab </a>. I work at the intersection of
 Human-Computer Interaction, Ubiquitous Computing, Computational Materials Manufacturing and Cyber-Physical Human Systems. My work has been published several papers at top-tier HCI venues,
 including ACM CHI, IMWUT (UbiComp), UIST, and CSCW, winning best honorable mention
 award and has also featured on news outlets like New Scientist, Makezine, etc. 
 
-I have also been a part of research teams at numberous instituitions such as the Manufacturing Science group at Oakridge National
-Lab (ORNL), Xerox Research, HPI, INRIA, and Microsoft Research. Prior to my
+I have also been a part of research teams at numberous instituitions such as the <a href="https://www.ornl.gov/division/manufacturing-science"> Manufacturing Science group </a> at <a href="https://www.ornl.gov"> Oakridge National
+Lab (ORNL) </a>, <a href="http://research.microsoft.com/en-us/groups/tem/">Microsoft Research</a>,  <a href="http://hpi.de/baudisch/home.html"> HPI </a>,  <a href="http://www.inria.fr/centre/saclay"> INRIA </a>, and Xerox Research. Prior to my
 Ph.D, I completed a dual degree master’s from Technical University of Berlin and
 Universite Paris-Sud XI.
 
@@ -79,9 +79,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
         </div>
         <div class="carousel-item">
             <p>
-                Optistructures introduces a method for manufacturing computational capabilities like sensing and displays into room-scale physical structures like walls, tables, furniture, etc., that are made with typical building materials
-                (concrete, plaster, etc.) using photonic (nonsilicon) approach. To enable sensing, the optical fibers are manufactured with Bragg-gratings, which are nanometer-scale wavelength dependent passive optical reflectors. When the
-                optical fibers are probed with a broadspectrum photonic source, the Bragg gratings in the optical fiber backscatter light (fig above) at a specific wavelength.
+                <a href=" /files/optistructures-ubicomp2020.pdf"> Optistructures </a>  introduces a method for manufacturing computational capabilities into room-scale physical structures like walls, tables, furniture, etc., using an optical approach.  Common building materials (concrete, plaster, etc.) are programmatically embedded with optical fibers to provide sensing and displays for interaction with structures. The embedded optical fibers act as sensors as they are manufactured with Bragg-gratings, which are nanometer-scale optical reflectors. The Bragg-gratings backscatter light (fig below) at a specific wavelength when the optical fibers are probed with a broadspectrum photonic source. Any minute perturbance (microstrain) around the manufactured structure changes the wavelength of the backscattered light and is detected using a Mach-Zender Interferometer (MZI) photonic system for further processing with ML models. OptiStructures provide energy-efficient sensing at an infrastructure scale, in buildings, bridges, roads, etc., as 1000’s Bragg-gratings reflectors located along long lengths of optical fiber (~70km) reflect light without using any local power or batteries.
             </p>
             <div class="row">
         		<div class="col-sm col-xs-8">
@@ -112,7 +110,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
         </div>
         <div class="carousel-item">
             <p>
-                Computational deployable structures demonstrates a range of techniques, design primitives for creating custom actuated large-scale pneumatic strcutures. We utilized materials used in space structures like flexible fabrics with pre-stressed patterns to enable actuation at a larger scale. The manufactured structures can self-deploy and provide inherent actuation and sensing capabilities engineered within textile materials.
+                <a href="/files/imwut19-inflatables.pdf">Computational deployable structures</a> demonstrates a range of techniques, design primitives for creating custom actuated large-scale pneumatic strcutures. We utilized materials used in space structures like flexible fabrics with pre-stressed patterns to enable actuation at a larger scale. The manufactured structures can self-deploy and provide inherent actuation and sensing capabilities engineered within textile materials.
             </p>
             <div class="row">
         		<div class="col-sm col-xs-8">
@@ -136,7 +134,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
             </div>
         </div>
         <div class="carousel-item">
-            <p>Fiberwire project demonstrates a method for engineering structural materials, like a carbon-fiber composite, to transmit electrical signals at a low loss and create composite objects with inherent circuitry and sensing
+            <p> <a href=" /files/FiberWire-CHI2019.pdf "> Fiberwire </a> project demonstrates a method for engineering structural materials, like a carbon-fiber composite, to transmit electrical signals at a low loss and create composite objects with inherent circuitry and sensing
                 capability via 3D printing. This system manufactures computational composite objects that perform sensing even while bearing large impact forces of 4000 lbs under extreme mechanical conditions.</p>
             <div class="row">
         		<div class="col-sm col-xs-8">
