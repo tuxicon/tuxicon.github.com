@@ -1,0 +1,8 @@
+@import "functions";
+@import "variables";
+
+/* make changes to the !default Bootstrap variables */    
+$body-color: green;
+        
+/* finally, import Bootstrap to set the changes! */
+@import "bootstrap";
