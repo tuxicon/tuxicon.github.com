@@ -27,6 +27,20 @@
   }
 
 
+    @include breakpoint($medium-wide) {
+    padding-right: 0;
+    @include span(2 of 12);
+    margin-left:2%;
+    opacity: 1;
+    -webkit-transition: opacity 0.2s ease-in-out;
+            transition: opacity 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+
   @include breakpoint($x-large) {
     padding-right: 0;
     margin-left: 0;

@@ -2796,6 +2796,15 @@ select:focus {
     padding-right: 4.2372881356%;
   }
 }
+@media (min-width: 56.25em) {
+  .page {
+    width: 74.5762711864%;
+    float: right;
+    margin-right: 0;
+    padding-left: 0.8474576271%;
+    padding-right: 2.5423728814%;
+  }
+}
 .page .page__inner-wrap {
   clear: both;
   width: 100%;
@@ -2837,7 +2846,7 @@ select:focus {
   border-bottom: 1px solid #f2f3f3;
 }
 .page__content p, .page__content li, .page__content dl {
-  font-size: 1em;
+  font-size: 14.5px;
   font-weight: 300;
 }
 .page__content p {
@@ -3484,6 +3493,21 @@ select:focus {
   display: table;
 }
 @media (min-width: 80em) {
+  .sidebar {
+    padding-right: 0;
+    width: 15.2542372881%;
+    float: left;
+    margin-right: 1.6949152542%;
+    margin-left: 2%;
+    opacity: 1;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+  }
+  .sidebar:hover {
+    opacity: 1;
+  }
+}
+@media (min-width: 56.25em) {
   .sidebar {
     padding-right: 0;
     width: 15.2542372881%;

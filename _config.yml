@@ -13,7 +13,7 @@ name                     : &name "Sai Ganesh Swaminathan"
 description              : &description "PhD Student at Carnegie Mellon University"
 url                      : https://tuxicon.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : https://github.com/tuxicon/tuxicon.github.com
+repository               : tuxicon/tuxicon.github.com
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160

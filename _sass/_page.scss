@@ -28,7 +28,13 @@
     @include suffix(0.5 of 12);
   }
 
-  
+  @include breakpoint($medium-wide) {
+    @include span(9 of 12 last);
+    @include prefix(0.1 of 12);
+    @include suffix(0.3 of 12);
+  }
+
+
   .page__inner-wrap {
     @include full();
 
@@ -63,7 +69,7 @@
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: 14.5px;
     font-weight: 300;
   }
 

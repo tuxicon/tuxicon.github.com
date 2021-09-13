@@ -20,19 +20,19 @@ Ph.D, I completed a dual degree master’s from Technical University of Berlin a
 Universite Paris-Sud XI.
 
 <h5 id="rs"> Research Vision: </h5>
-<h5> Interactive Computational Mateirals for the Networked Built Envrionment </h5>
+<h5> Interactive Computational Materials for the Networked Built Envrionment </h5>
 ------
 
-The key idea of ubiquitous computing is that as computers get miniaturized and powerful, they can be applied cheaply to digitize the physical infrastructure such as rooms, buildings, bridges, structures, neighborhoods, and cities into cyberspace. Unfortunately, this vision is not entirely realized due to end of end of Moore’s law and Dennard scaling. As a result, our devices remain power-hungry, are not seamlessly integrated, and continue to be manufactured using yesterday’s design ideas and technology. To date, the focus of device manufacturing has been on miniaturization and packing the most functionality into the smallest form factors, even though our physical infrastrcuture is much larger in scale. Miniaturized devices need to be deployed in massive quantities to enable interactivity in the built environment (buildings, sidewalks, etc.), leading to unsustainable power consumption as the many devices require numerous batteries. 
+The key idea of ubiquitous computing is that as computers get miniaturized and powerful, they can be applied cheaply to digitize the physical infrastructure such as rooms, buildings, bridges, structures, neighborhoods, and cities into cyberspace. Unfortunately, this vision is not entirely realized due to end of end of Moore’s law and Dennard scaling. As a result, our devices remain power-hungry, are not seamlessly integrated, and continue to be manufactured using yesterday’s design ideas and technology. To date, the focus of device manufacturing has been on miniaturization and packing the most functionality into the smallest form factors, even though our physical infrastructure is much larger in scale. Miniaturized devices need to be deployed in massive quantities to enable interactivity in the built environment (buildings, sidewalks, etc.), leading to unsustainable power consumption as the many devices require numerous batteries. 
 
-Further, to truly enable affordance, human interaction and computing to be pervasive, we need to manufacture computational capabilities into “things” we interact with in our environment (e.g. furniture). Instead of power hungry boxed form factors, we need to create battery-free devices, with various form factors and materials. For example, we could integrate computing with extremely strong materials that make up our environment such as concrete and wood, and build interactive battery-free devices in structural forms like walls and tables. 
+Further, to truly enable affordance, human interaction, and computing to be pervasive, we need to manufacture computational capabilities into “things” we interact with in our environment (e.g. furniture). Instead of power-hungry boxed form factors, we need to create battery-free devices with various form factors and materials. For example, we could integrate computing with extremely strong materials that make up our environments, such as concrete and wood and build interactive battery-free devices in structural forms like walls and tables. 
 
-There remain several challenges related to form factor, power, sensing, actuation, and device manufacturing in the built environment scale. My work introduces "computational material devices" (see fig below) to address these issues, wherein engineered materials enable low-power, integrated sensing, and actuation with the networked physical infrastructure (buildings, structures, bridges, etc.) in our built environment. This effort is a highly interdisciplinary endeavor spanning collaborators from ECE, CEE, ME across institutions. For a full research statement, please read here. 
-
-
+There remain several challenges related to form factor, power, sensing, actuation, and device manufacturing in the built environment scale. My work introduces "computational material devices" (see fig below) to address these issues, wherein engineered materials enable low-power, integrated sensing, and actuation with the networked physical infrastructure (buildings, structures, bridges, etc.) in our built environment. This effort is a highly interdisciplinary endeavor spanning collaborators from ECE, CEE, ME across institutions. For a complete research statement, please read it here. 
 
 
-<img style="max-width: 800px;" src="/images/rvv1.png" alt="" />
+
+
+<img style="" src="/images/rvv1.png" alt="" />
 
 
 
