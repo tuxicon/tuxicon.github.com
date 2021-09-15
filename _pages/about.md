@@ -39,7 +39,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
 <h5>Recent Research Highlights:</h5>
 ------
 
-<div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="6000">
 <!--     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -166,6 +166,51 @@ There remain several challenges related to form factor, power, sensing, actuatio
             <span class="sr-only">Next</span>
         </a>
     </div>
+        <!-- Thumbnails -->
+ <!--  <div class="carousel-indicators" style="margin-bottom: -20px;">
+    <button
+      type="button"
+      data-mdb-target="#carouselExampleIndicators"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+      style="width: 100px;"
+    >
+      <img
+        class="d-block w-100"
+        src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(88).jpg"
+        class="img-fluid"
+      />
+    </button>
+    <button
+      type="button"
+      data-mdb-target="#carouselExampleIndicators"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+      style="width: 100px;"
+    >
+      <img
+        class="d-block w-100"
+        src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(121).jpg"
+        class="img-fluid"
+      />
+    </button>
+    <button
+      type="button"
+      data-mdb-target="#carouselExampleIndicators"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+      style="width: 100px;"
+    >
+      <img
+        class="d-block w-100"
+        src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(31).jpg"
+        class="img-fluid"
+      />
+    </button>
+  </div> -->
+  <!-- Thumbnails -->    
 </div>
 
 <p>
