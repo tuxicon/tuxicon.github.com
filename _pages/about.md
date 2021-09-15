@@ -39,7 +39,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
 <h5>Recent Research Highlights:</h5>
 ------
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="6000">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
 <!--     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
