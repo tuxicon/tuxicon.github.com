@@ -2789,7 +2789,7 @@ select:focus {
 }
 @media (min-width: 112.5em) {
   .page {
-    width: 83.0508474576%;
+    width: 91.5254237288%;
     float: right;
     margin-right: 0;
     padding-left: 4.2372881356%;
@@ -2798,11 +2798,12 @@ select:focus {
 }
 @media (min-width: 56.25em) {
   .page {
-    width: 74.5762711864%;
+    width: 66.1016949153%;
     float: right;
     margin-right: 0;
     padding-left: 0.8474576271%;
-    padding-right: 2.5423728814%;
+    padding-right: 8.4745762712%;
+    margin-right: 10%;
   }
 }
 .page .page__inner-wrap {
@@ -3870,7 +3871,7 @@ dfn {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 small {

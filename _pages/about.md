@@ -23,16 +23,11 @@ Universite Paris-Sud XI.
 <h5> Interactive Computational Materials for the Networked Built Environment </h5>
 ------
 
-The key idea of ubiquitous computing is that as computers get miniaturized and powerful, they can be applied cheaply to digitize the physical infrastructure such as rooms, buildings, bridges, structures, neighborhoods, and cities into cyberspace. Unfortunately, this vision is not entirely realized due to end of end of Moore’s law and Dennard scaling. As a result, our devices remain power-hungry, are not seamlessly integrated, and continue to be manufactured using yesterday’s design ideas and technology. To date, the focus of device manufacturing has been on miniaturization and packing the most functionality into the smallest form factors, even though our physical infrastructure is much larger in scale. Miniaturized devices need to be deployed in massive quantities to enable interactivity in the built environment (buildings, sidewalks, etc.), leading to unsustainable power consumption as the many devices require numerous batteries. 
+The key idea of ubiquitous computing is that as computers get miniaturized and powerful, they can be applied cheaply to digitize the physical infrastructure (rooms, buildings, structures, bridges, etc.). Unfortunately, this vision is not entirely realized due to the <b>end of Moore’s law and Dennard scaling.</b> As a result, our devices remain power-hungry, are not seamlessly integrated, and continue to be manufactured using yesterday’s design ideas and technology. To date, the focus of device manufacturing has been on miniaturization and packing the most functionality into the smallest form factors, even though our physical infrastructure is much larger in scale. Miniaturized devices need to be deployed in massive quantities to enable interactivity in the built environment (buildings, sidewalks, etc.), leading to <b>unsustainable power consumption</b> as many devices require numerous batteries. Instead of today's power-hungry boxed form factors, we need to create battery-free devices with various form factors and materials. For example, we could <b> integrate computing with extremely strong materials </b> that make up our environments, such as concrete and wood and build battery-free interactive devices in structural forms like walls and tables. 
+ 
+As an experimental computer scientist and Human-Computer Interaction (HCI) researcher, <b> I introduce computationally engineered materials that enable low-power, integrated sensing, and actuation in the networked physical infrastructure (buildings, structures, bridges, etc.) forms.</b> This effort is a highly interdisciplinary endeavor and has collaborators in various fields such as HCI/CS, ECE (Electrical and Computer engineering), Materials Science, Manufacturing, and CEE (Civil and Environmental Engineering) from across research institutions.
 
-Further, to truly enable affordance, human interaction, and computing to be pervasive, we need to manufacture computational capabilities into “things” we interact with in our environment (e.g. furniture). Instead of power-hungry boxed form factors, we need to create battery-free devices with various form factors and materials. For example, we could integrate computing with extremely strong materials that make up our environments, such as concrete and wood and build interactive battery-free devices in structural forms like walls and tables. 
-
-There remain several challenges related to form factor, power, sensing, actuation, and device manufacturing in the built environment scale. My work introduces "computational material devices" (see fig below) to address these issues, wherein engineered materials enable low-power, integrated sensing, and actuation with the networked physical infrastructure (buildings, structures, bridges, etc.) in our built environment. This effort is a highly interdisciplinary endeavor spanning collaborators from ECE, CEE, ME across institutions. For a complete research statement, please read it here. 
-
-
-
-
-<img style="" src="/images/rvv1.png" alt="" />
+<img style="" src="/images/vision_saiv2.png" alt="" />
 
 
 
@@ -182,6 +177,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
         src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(88).jpg"
         class="img-fluid"
       />
+
     </button>
     <button
       type="button"
@@ -217,6 +213,51 @@ There remain several challenges related to form factor, power, sensing, actuatio
     <br />
 </p>
 
+<!--    <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                        </div>
+                    </div>            
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                        </div>
+                    </div>
+                </div>    
+                <div class="row justify-content-between">	    
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                        </div>
+                   </div>
+                    <div class="col-md-6 col-lg-6 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </section>
+
+ -->
+
+
+
 <h5 id="pubs">Publications:</h5>
 ------
 
@@ -239,12 +280,12 @@ There remain several challenges related to form factor, power, sensing, actuatio
 
 .left {
 	margin-top: 10px;
-	width: 20%;
+	width: 40%;
 	text-align: center;
 }
 
 .right {
-	width: 80%;
+	width: 60%;
 }
 
 
@@ -262,7 +303,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
 			<div class="publication_column left"> <img src="/images/project/duco_robot.png" alt="" />
 				<br />
 				<br /><b>UbiComp 2021</b></div>
-			<div class="publication_column right"> <a href=" /files/ "><b> Duco: Autonomous Large-Scale Direct-Circuit-Writing (DCW) on Vertical Everyday Surfaces Using A Scalable Hanging Plotter </b></a>.
+			<div class="publication_column right"> <a href=" /files/project/"><b> Duco: Autonomous Large-Scale Direct-Circuit-Writing (DCW) on Vertical Everyday Surfaces Using A Scalable Hanging Plotter </b></a>.
 			<br /> Tingyu Cheng, Bu Li, Yang Zhang, Yunzhi Li, Charles Ramey, Eui Min Jung, Yepu Cui,  <b> Saiganesh Swaminathan</b>, Youngwook Do, Manos Tentzeris, Gregory D. Abowd, HyunJoo Oh. 
 				<br /> In Proceedings of ACM Conference on Interactive, Mobile, Wearable and Ubiquitous Technologies (UbiComp 2021).
 				<br /> [<a href=" ">Paper PDF (coming soon)</a>] [<a href="">ACM DL (coming soon)</a>] [<a href=" ">Demo Video (Coming Soon)</a>]</div>
@@ -270,44 +311,10 @@ There remain several challenges related to form factor, power, sensing, actuatio
 </article>			
 </div>
 
-
-
-<style>
-* {
-	box-sizing: border-box;
-}
-
-
-/* Create two unequal columns that floats next to each other */
-
-.publication_column {
-	float: left;
-	padding: 10px;
-}
-
-.left {
-	margin-top: 10px;
-	width: 20%;
-	text-align: center;
-}
-
-.right {
-	width: 80%;
-}
-
-
-/* Clear floats after the columns */
-
-.publication_row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-</style>
 <div class=" list__item">
 	<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
 		<div class="publication_row">
-			<div class="publication_column left"> <img src="/images/project/navtile.jpg" alt="" />
+			<div class="publication_column left"> <img src="/images/project/navtilev2.png" alt="" />
 				<br />
 				<br /><b>CHI 2021</b></div>
 			<div class="publication_column right"> <a href=" /files/navtile_camera_ready_tagged_CHI2021.pdf "><b>From Tactile to NavTile: Opportunities and Challenges for Multi-Modal Feedback in Guiding Surfaces during Non-Visual Navigation</b></a>
@@ -318,38 +325,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
 		</div>
 	</article>
 </div>
-<style>
-* {
-	box-sizing: border-box;
-}
 
-
-/* Create two unequal columns that floats next to each other */
-
-.publication_column {
-	float: left;
-	padding: 10px;
-}
-
-.left {
-	margin-top: 10px;
-	width: 20%;
-	text-align: center;
-}
-
-.right {
-	width: 80%;
-}
-
-
-/* Clear floats after the columns */
-
-.publication_row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-</style>
 <div class=" list__item">
 	<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
 		<div class="publication_row">
@@ -364,38 +340,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
 		</div>
 	</article>
 </div>
-<style>
-* {
-	box-sizing: border-box;
-}
 
-
-/* Create two unequal columns that floats next to each other */
-
-.publication_column {
-	float: left;
-	padding: 10px;
-}
-
-.left {
-	margin-top: 10px;
-	width: 20%;
-	text-align: center;
-}
-
-.right {
-	width: 80%;
-}
-
-
-/* Clear floats after the columns */
-
-.publication_row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-</style>
 <div class=" list__item">
 	<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
 		<div class="publication_row">
@@ -409,38 +354,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
 		</div>
 	</article>
 </div>
-<style>
-* {
-	box-sizing: border-box;
-}
 
-
-/* Create two unequal columns that floats next to each other */
-
-.publication_column {
-	float: left;
-	padding: 10px;
-}
-
-.left {
-	margin-top: 10px;
-	width: 20%;
-	text-align: center;
-}
-
-.right {
-	width: 80%;
-}
-
-
-/* Clear floats after the columns */
-
-.publication_row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-</style>
 <div class=" list__item">
 	<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
 		<div class="publication_row">
@@ -454,38 +368,6 @@ There remain several challenges related to form factor, power, sensing, actuatio
 		</div>
 	</article>
 </div>
-<style>
-* {
-	box-sizing: border-box;
-}
-
-
-/* Create two unequal columns that floats next to each other */
-
-.publication_column {
-	float: left;
-	padding: 10px;
-}
-
-.left {
-	margin-top: 10px;
-	width: 20%;
-	text-align: center;
-}
-
-.right {
-	width: 80%;
-}
-
-
-/* Clear floats after the columns */
-
-.publication_row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-</style>
 <div class=" list__item">
 	<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
 		<div class="publication_row">
@@ -501,38 +383,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
 		</div>
 	</article>
 </div>
-<style>
-* {
-	box-sizing: border-box;
-}
 
-
-/* Create two unequal columns that floats next to each other */
-
-.publication_column {
-	float: left;
-	padding: 10px;
-}
-
-.left {
-	margin-top: 10px;
-	width: 20%;
-	text-align: center;
-}
-
-.right {
-	width: 80%;
-}
-
-
-/* Clear floats after the columns */
-
-.publication_row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-</style>
 <div class=" list__item">
 	<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
 		<div class="publication_row">
@@ -546,39 +397,6 @@ There remain several challenges related to form factor, power, sensing, actuatio
 		</div>
 	</article>
 </div>
-<style>
-* {
-	box-sizing: border-box;
-}
-
-
-/* Create two unequal columns that floats next to each other */
-
-.publication_column {
-	float: left;
-	padding: 10px;
-}
-
-.left {
-	margin-top: 10px;
-	width: 20%;
-	text-align: center;
-}
-
-.right {
-	width: 80%;
-}
-
-
-/* Clear floats after the columns */
-
-.publication_row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-</style>
-
 <div class=" list__item">
 	<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
 		<div class="publication_row">
@@ -593,38 +411,6 @@ There remain several challenges related to form factor, power, sensing, actuatio
 		</div>
 	</article>
 </div>
-<style>
-* {
-	box-sizing: border-box;
-}
-
-
-/* Create two unequal columns that floats next to each other */
-
-.publication_column {
-	float: left;
-	padding: 10px;
-}
-
-.left {
-	margin-top: 10px;
-	width: 20%;
-	text-align: center;
-}
-
-.right {
-	width: 80%;
-}
-
-
-/* Clear floats after the columns */
-
-.publication_row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-</style>
 
 <div class=" list__item">
 	<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
@@ -639,38 +425,6 @@ There remain several challenges related to form factor, power, sensing, actuatio
 		</div>
 	</article>
 </div>
-<style>
-* {
-	box-sizing: border-box;
-}
-
-
-/* Create two unequal columns that floats next to each other */
-
-.publication_column {
-	float: left;
-	padding: 10px;
-}
-
-.left {
-	margin-top: 10px;
-	width: 20%;
-	text-align: center;
-}
-
-.right {
-	width: 80%;
-}
-
-
-/* Clear floats after the columns */
-
-.publication_row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-</style>
 <div class=" list__item">
 	<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
 		<div class="publication_row">
@@ -684,38 +438,7 @@ There remain several challenges related to form factor, power, sensing, actuatio
 		</div>
 	</article>
 </div>
-<style>
-* {
-	box-sizing: border-box;
-}
 
-
-/* Create two unequal columns that floats next to each other */
-
-.publication_column {
-	float: left;
-	padding: 10px;
-}
-
-.left {
-	margin-top: 10px;
-	width: 20%;
-	text-align: center;
-}
-
-.right {
-	width: 80%;
-}
-
-
-/* Clear floats after the columns */
-
-.publication_row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-</style>
 <div class=" list__item">
 	<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
 		<div class="publication_row">
@@ -729,4 +452,11 @@ There remain several challenges related to form factor, power, sensing, actuatio
 		</div>
 	</article>
 </div>
+
+
+
+
+
+
+
 
