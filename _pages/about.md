@@ -9,8 +9,8 @@ redirect_from:
 ---
 
 I'm a Ph.D. Candidate at the <a href="http://www.hcii.cmu.edu/">  Human-Computer Interaction Institute </a> in the <a href="https://www.cs.cmu.edu/"> School of Computer Science </a> of
-<a href="www.cmu.edu"> Carnegie Mellon University </a>. I'm advised by <a href="http://www.scotthudson.com" target="_blank">Scott Hudson</a> in the <a href="https://cmu-devlab.github.io/"> Devlab </a>. I work at the intersection of
-Human-Computer Interaction, Ubiquitous Computing, Computational Materials Manufacturing and Cyber-Physical Human Systems. My work has been published several papers at top-tier HCI venues,
+<a href="http://www.cmu.edu"> Carnegie Mellon University </a>. I'm advised by <a href="http://www.scotthudson.com" target="_blank">Scott Hudson</a> in the <a href="https://cmu-devlab.github.io/"> Devlab </a>. I work at the intersection of
+Human-Computer Interaction, Ubiquitous Computing, Computational Materials Manufacturing and Cyber-Physical Human Systems. My work has been published at top-tier HCI venues,
 including ACM CHI, IMWUT (UbiComp), UIST, and CSCW, winning best honorable mention
 award and has also featured on news outlets like New Scientist, Makezine, etc. 
 
