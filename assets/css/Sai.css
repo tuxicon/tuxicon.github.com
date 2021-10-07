@@ -1,7 +1,6 @@
 body{
 
         font-weight: 300;
-        font-size: 14.5px;
 }
 
 p {
@@ -163,6 +162,7 @@ background-color: #212529;
   overflow-x: hidden;
   overflow-y: auto;
   outline: 0;
+  margin-left:0px;
   margin-right:0px;
   margin-top:0px;
   background: none;
@@ -220,6 +220,56 @@ background-color: #212529;
   outline: 0;
 }
 
+.exp{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.text-decoration-underline {
+  text-decoration: underline !important;
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through !important;
+}
+
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.text-wrap {
+  white-space: normal !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+
+
+video{
+
+      border-bottom: 1px solid transparent;
+
+}
+
+.exp:after{content:" \25BA";display:inline;position:relative;font-size:85%;top:-1px;margin-left:0.15em;}
+
+/*.rh {background-color:gray;}
+*/
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -474,5 +524,35 @@ background-color: #212529;
 }
 
 
-
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50;
+}
+.divider-custom .divider-custom-line:first-child {
+  margin-right: 1rem;
+}
+.divider-custom .divider-custom-line:last-child {
+  margin-left: 1rem;
+}
+.divider-custom .divider-custom-icon {
+  color: #2c3e50;
+  font-size: 2rem;
+}
+.divider-custom.divider-light .divider-custom-line {
+  background-color: #fff;
+}
+.divider-custom.divider-light .divider-custom-icon {
+  color: #fff;
+}
 

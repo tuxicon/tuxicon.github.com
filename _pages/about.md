@@ -19,8 +19,7 @@ Lab (ORNL) </a>, <a href="http://research.microsoft.com/en-us/groups/tem/">Micro
 Ph.D, I completed a dual degree master’s from Technical University of Berlin and
 Universite Paris-Sud XI.
 
-<h5 id="rs"> Research Vision: </h5>
-<h5> Interactive Computational Materials for the Networked Built Environment </h5>
+<h5 id="rs">Research Vision: Interactive Computational Materials for the Networked Built Environment </h5>
 ------
 
 The key idea of ubiquitous computing is that as computers get miniaturized and powerful, they can be applied cheaply to digitize the physical infrastructure (rooms, buildings, structures, bridges, etc.). Unfortunately, this vision is not entirely realized due to the <b>end of Moore’s law and Dennard scaling.</b> As a result, our devices remain power-hungry, are not seamlessly integrated, and continue to be manufactured using yesterday’s design ideas and technology. To date, the focus of device manufacturing has been on miniaturization and packing the most functionality into the smallest form factors, even though our physical infrastructure is much larger in scale. Miniaturized devices need to be deployed in massive quantities to enable interactivity in the built environment (buildings, sidewalks, etc.), leading to <b>unsustainable power consumption</b> as many devices require numerous batteries. Instead of today's power-hungry boxed form factors, we need to create battery-free devices with various form factors and materials. For example, we could <b> integrate computing with extremely strong materials </b> that make up our environments, such as concrete and wood and build battery-free interactive devices in structural forms like walls and tables. 
@@ -34,13 +33,13 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
 <h5>Recent Research Highlights:</h5>
 ------
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
-<!--     <ol class="carousel-indicators">
+<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+   <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    </ol> -->
+    </ol> 
     <div class="carousel-inner">
          <div class="carousel-item active">
             <p>Duco is a large-scale robotic platform that sketches sensors, antennas, energy harvesters on walls, glass facades, etc. of buildings, turning such large surfaces into smart self-sustainable sensing skins.</p>
@@ -161,8 +160,8 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
             <span class="sr-only">Next</span>
         </a>
     </div>
-        <!-- Thumbnails -->
- <!--  <div class="carousel-indicators" style="margin-bottom: -20px;">
+     
+ <div class="carousel-indicators" style="margin-bottom: -20px;">
     <button
       type="button"
       data-mdb-target="#carouselExampleIndicators"
@@ -205,9 +204,9 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
         class="img-fluid"
       />
     </button>
-  </div> -->
-  <!-- Thumbnails -->    
-</div>
+  </div> 
+    
+</div> -->
 
 <p>
     <br />
@@ -216,44 +215,96 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
    <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-md-6 col-lg-6 mb-5">
+                    <div class="rh col-md-6 col-lg-6 mb-5" id="project1" onmouseover="PlayVideo(1)" onmouseleave="StopVideoPlay(1)">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                            <video  preload="auto" id="video1" style= "margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source src="/files/duco-gifv3.mp4" type="video/mp4"><source type="video/webm" src="/files/duco-gifv3.webm"></video>
+                            <p><h6> Duco </h6></p>
+                            <div class="col-sm col-xs-4" style="padding-left:0px;">    	
+	           				<div class="">
+	            				<h6> Collaboration:</h6>
+	            						<div class="row" style="margin-left: 0px;">
+	            						<div class="col-auto col-xs-4" style="padding: 0px">  
+			            				<img style="max-width: 150px;" src="/images/GT-IC.png" alt="GT-logo"/> 
+			            				</div>
+			            				<div class="col-auto col-xs-4" style="padding: 0px">  
+			            				<img style="max-width: 150px;" src="/images/gtecelogo.jpeg" alt="GT-logo"/>
+			            				</div>	
+			            				<div class="col-auto col-xs-4" style="padding: 0px">  
+			            			    <img style="max-width: 150px;" src="/images/NU.png" alt="NU-logo"/>
+			            			    </div>
+			            			    </div> 
+	            			</div>
+	            			<br/>
+	            			<a class="exp" style="font-weight: bold;  text-transform: uppercase; color: rgba(165,20,23,1);">Show Details</a>		
+	            			</div>
+                            <!-- <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." /> -->
                         </div>
                     </div>            
-                    <div class="col-md-6 col-lg-6 mb-5">
+                    <div class="rh col-md-6 col-lg-6 mb-5" id="project2" onmouseover="PlayVideo(2)" onmouseleave="StopVideoPlay(2)">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
-                        </div>
+                            <video  preload="auto" id="video2" style= "margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source src="/files/optistructures-gifv2.mp4" type="video/mp4"><source type="video/webm" src="/files/optistructures-gifv2.webm"></video>
+                             <p> <h6>OptiStructures </h6> </p>
+                            <div class="col-sm col-xs-4" style="padding-left:0px;">      	
+				                 <div class="">
+				            				<h6> Collaboration:</h6>
+				            				<div class="row" style="margin-left: 0px;">
+				            				<div class="col-auto col-xs-4" style="padding:0px">  
+				            				<img style="max-width: 25px;" src="/images/stree.png" alt="S-logo"/>
+				            				</div>
+				            				<div class="col-auto col-xs-4" style="padding: 0px">  		
+				            				<img style="max-width: 160px;" src="/images/Stanford-CEElogo.jpeg" alt="S-logo"/>
+				            				</div>
+				            				<div class="col-auto col-xs-4" style="padding: 0px">  		
+				            				<img style="max-width: 170px;" src="/images/cmu-cee.png" alt="cmucee-logo"/>
+				            				</div>
+				            				</div>	
+				           		 </div>
+				           	</div>	
+				           	<br/>		
+				            <a class="exp" style="font-weight: bold;  text-transform: uppercase; color: rgba(165,20,23,1);">Show Details</a>		
                     </div>
-                </div>    
+                </div>
+              </div>      
                 <div class="row justify-content-between">	    
-                    <div class="col-md-6 col-lg-6 mb-5">
+                    <div class="rh col-md-6 col-lg-6 mb-5" id="project3" onmouseover="PlayVideo(3)" onmouseleave="StopVideoPlay(3)">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                            <video  preload="auto" id="video3" style= "margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source src="/files/pneumatic-gifv3.mp4" type="video/mp4"><source type="video/webm" src="/files/pneumatic-gifv3.webm"></video> 
+                            <p><h6> Computational Depolyable Structures </h6></p>
+                            <div class="col-sm col-xs-4" style="padding-left:0px;">      	
+				                 <div class="">
+				            				<h6> Collaboration:</h6>
+				            				<div class="row" style="margin-left: 0px;">
+				            				<div class="col-auto col-xs-4" style="padding:0px">  
+				            				<img style="max-width: 150px;" src="/images/CMU_Meche_logo.jpeg" alt="S-logo"/>
+				            				</div>
+				            				</div>	
+				           		</div>
+		           			</div>	
+		           			<br/>		
+				            <a class="exp" style="font-weight: bold;  text-transform: uppercase; color: rgba(165,20,23,1);">Show Details</a>				 	
                         </div>
                    </div>
-                    <div class="col-md-6 col-lg-6 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+                    <div class="rh col-md-6 col-lg-6 mb-5 mb-lg-0" id="project4" onmouseover="PlayVideo(4)" onmouseleave="StopVideoPlay(4)" >
+                        <div class="rh portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <video   preload="auto" id="video4" style= "margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source src="/files/fiberwire-gifv2.mp4" type="video/mp4"><source type="video/webm" src="/files/fiberwire-gifv2.webm"></video>    
+                            <p> <h6> FiberWire </h6></p>	
+                            <div class="col-sm col-xs-4" style="padding-left:0px;">      	
+			                 	<div class="">
+			            				<h6> Collaboration:</h6>
+			            				<div class="row" style="margin-left: 0px;">
+			            				<div class="col-auto col-xs-4" style="padding:0px">  
+			            				<img style="max-width: 150px;" src="/images/CMU_Meche_logo.jpeg" alt="S-logo"/>
+			            				</div>
+			            				</div>	
+			           			</div>
+		           			</div>
+		           			<br/>		
+				            <a class="exp" style="font-weight: bold;  text-transform: uppercase; color: rgba(165,20,23,1);">Show Details</a>				 		
                         </div>
                     </div>
                 </div>
-             </div>
-        </section>
-
+           </div>  
+    </section>
 
 
 
@@ -314,7 +365,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
 <div class=" list__item">
 	<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
 		<div class="publication_row">
-			<div class="publication_column left"> <img src="/images/project/navtilev2.png" alt="" />
+			<div class="publication_column left"> <img src="/images/project/navtile.jpg" alt="" />
 				<br />
 				<br /><b>CHI 2021</b></div>
 			<div class="publication_column right"> <a href=" /files/navtile_camera_ready_tagged_CHI2021.pdf "><b>From Tactile to NavTile: Opportunities and Challenges for Multi-Modal Feedback in Guiding Surfaces during Non-Visual Navigation</b></a>
@@ -462,42 +513,27 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                 <div class="modal-body text-center pb-5">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-8">
+                            <div class="col-lg-12">
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Duco</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <p>Duco is a large-scale robotic platform that sketches sensors, antennas, energy harvesters on walls, glass facades, etc. of buildings, turning such large surfaces into smart self-sustainable sensing skins.</p>
+                                <p style="text-align: left;">Duco is a large-scale robotic platform that sketches sensors, antennas, energy harvesters on walls, glass facades, etc. of buildings, turning such large surfaces into smart self-sustainable sensing skins.</p>
 					            <div class="row">
-					        		<div class="col-sm col-xs-8">
+					        		<div class="col-lg-6">
 					                    <img class="d-block w-100" src="/images/duco_robot_verticle-min.png" alt="Second slide" />
 					                </div>
-					                <div class="col-sm col-xs-4">
-					            		<div class="card">
-					            			<h1> Video</h1>
-					           			    <p class="card-text">Coming Soon</p>
-					           			</div>
-					           		 		<div class="col-sm col-xs-4" style="padding-left:0px;">    	
-						           				<div class="">
-						            				<h6> Collaboration:</h6>
-						            						<div class="row" style="margin-left: 0px;">
-						            						<div class="col-auto col-xs-4" style="padding: 0px">  
-								            				<img style="max-width: 150px;" src="/images/GT-IC.png" alt="GT-logo"/> 
-								            				</div>
-								            				<div class="col-auto col-xs-4" style="padding: 0px">  
-								            				<img style="max-width: 150px;" src="/images/gtecelogo.jpeg" alt="GT-logo"/>
-								            				</div>	
-								            				<div class="col-auto col-xs-4" style="padding: 0px">  
-								            			    <img style="max-width: 150px;" src="/images/NU.png" alt="NU-logo"/>
-								            			    </div>
-								            			    </div> 
-						            			</div>
-						            		</div>
+					                <div class="col-sm-12 col-lg-6">
+					  					<div class="video-container">
+					                  		<iframe class="fitvidsignore" src="https://www.youtube.com/embed/M0_BdEHfByM" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					                  	</div>
 					            	</div> 
 					            </div>
+					            <br/>
                                 <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
@@ -516,43 +552,29 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                 <div class="modal-body text-center pb-5">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-8">
+                            <div class="col-lg-12">
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">OptiStructures</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <p>
-					                <a href=" /files/optistructures-ubicomp2020.pdf"> Optistructures </a>  introduces a method for manufacturing computational capabilities into room-scale physical structures like walls, tables, furniture, etc., using an optical approach.  Common building materials (concrete, plaster, etc.) are programmatically embedded with optical fibers to provide sensing and displays for interaction with structures. The embedded optical fibers act as sensors as they are manufactured with Bragg-gratings, which are nanometer-scale optical reflectors. The Bragg-gratings backscatter light (fig below) at a specific wavelength when the optical fibers are probed with a broadspectrum photonic source. Any minute perturbance (microstrain) around the manufactured structure changes the wavelength of the backscattered light and is detected using a Mach-Zender Interferometer (MZI) photonic system for further processing with ML models. OptiStructures provide energy-efficient sensing at an infrastructure scale, in buildings, bridges, roads, etc., as 1000’s Bragg-gratings reflectors located along long lengths of optical fiber (~70km) reflect light without using any local power or batteries.
+                                <p style="text-align: left;">
+					                <a href=" /files/optistructures-ubicomp2020.pdf"> Optistructures </a>  introduces a method for manufacturing computational capabilities into room-scale physical structures like walls, tables, furniture, etc., using an optical approach.  Common building materials (concrete, plaster, etc.) are programmatically embedded with optical fibers to provide sensing and displays for interaction with structures. The embedded optical fibers act as sensors as they are manufactured with Bragg-gratings, which are nanometer-scale optical reflectors. The Bragg-gratings backscatter light (fig below) at a specific wavelength when the optical fibers are probed with a broadspectrum photonic source. Any minute perturbance (microstrain) around the manufactured structure changes the wavelength of the backscattered light and is detected using a Mach-Zender Interferometer (MZI) photonic system for further processing with machine learning (AI) models. OptiStructures provide energy-efficient sensing at an infrastructure scale, in buildings, bridges, roads, etc., as 1000’s Bragg-gratings reflectors located along long lengths of optical fiber (~70km) reflect light without using any local power or batteries.
 					            </p>
 					            <div class="row">
-					        		<div class="col-sm col-xs-8">
+					        		<div class="col-lg-6">
 					                    <img style="width:-webkit-fill-available;" class="d-block w-100" src="/images/city-scalev6-vertical.png" alt="Third slide" />
 					                </div>
-					                <div class="col-sm col-xs-4">
+					                <div class="col-sm-12 col-lg-6">
 					            		<div class="video-container">
 					                  		<iframe class="fitvidsignore" src="https://www.youtube.com/embed/fMrbOASsiY8" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					                  	</div>
-					                	<div class="col-sm col-xs-4" style="padding-left:0px;">      	
-							                 <div class="">
-							            				<h6> Collaboration:</h6>
-							            				<div class="row" style="margin-left: 0px;">
-							            				<div class="col-auto col-xs-4" style="padding:0px">  
-							            				<img style="max-width: 25px;" src="/images/stree.png" alt="S-logo"/>
-							            				</div>
-							            				<div class="col-auto col-xs-4" style="padding: 0px">  		
-							            				<img style="max-width: 160px;" src="/images/Stanford-CEElogo.jpeg" alt="S-logo"/>
-							            				</div>
-							            				<div class="col-auto col-xs-4" style="padding: 0px">  		
-							            				<img style="max-width: 160px;" src="/images/cmu-cee.png" alt="cmucee-logo"/>
-							            				</div>
-							            				</div>	
-							           		</div>
-							           	</div>
 							        </div>
-							    </div>       	  		    		
+							    </div> 
+							    <br/>      	  		    		
               					<button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
@@ -571,37 +593,29 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                 <div class="modal-body text-center pb-5">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-8">
+                            <div class="col-lg-12">
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Computational Deployable Structures</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                 <p>
-					                <a href="/files/imwut19-inflatables.pdf">Computational deployable structures</a> demonstrates a range of techniques, design primitives for creating custom actuated large-scale pneumatic structures. We utilized materials used in space structures like flexible fabrics with pre-stressed patterns to enable actuation at a larger scale. The manufactured structures can self-deploy and provide inherent actuation and sensing capabilities engineered within textile materials.
+                                 <p style="text-align: left;">
+					                <a href="/files/imwut19-inflatables.pdf">Computational deployable structures</a> demonstrates a range of techniques, design primitives for creating custom actuated large-scale pneumatic structures. We utilized materials used in space structures like flexible fabrics with pre-stressed patterns to enable actuation at a larger scale. The manufactured structures can self-deploy and provide inherent actuation and sensing capabilities engineered within textile materials. Finally, human interaction is possible as machine learning (AI) models are able to recognize interaction with materials and respond through actuation. 
 					            </p>
 					            <div class="row">
-					        		<div class="col-sm col-xs-8">
+					        		<div class="col-lg-5">
 					                    <img style="width:-webkit-fill-available;" class="d-block w-100" src="/images/deployable_structure_webv2.png" alt="Fourth slide" />
 					                </div>
-					                <div class="col-sm col-xs-4">
+					                <div class="col-sm-12 col-lg-7">
 					            		<div class="video-container">
 					                  		<iframe class="fitvidsignore" src="https://www.youtube.com/embed/ioGmbFb4SfI" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					                  	</div>
-					                  	<div class="col-sm col-xs-4" style="padding-left:0px;">      	
-							                 <div class="">
-							            				<h6> Collaboration:</h6>
-							            				<div class="row" style="margin-left: 0px;">
-							            				<div class="col-auto col-xs-4" style="padding:0px">  
-							            				<img style="max-width: 200px;" src="/images/CMU_Meche_logo.jpeg" alt="S-logo"/>
-							            				</div>
-							            				</div>	
-							           		</div>
-							           	</div> 	
 					                </div>
 					            </div>
+					            <br/>
                                 <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
@@ -620,35 +634,27 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                 <div class="modal-body text-center pb-5">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-8">
+                            <div class="col-lg-12">
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">FiberWire</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <p> <a href=" /files/FiberWire-CHI2019.pdf "> FiberWire </a> project demonstrates a method for engineering structural materials, like a carbon-fiber composite, to transmit electrical signals at a low loss and create composite objects with inherent circuitry and sensing capability via 3D printing. This system manufactures computational composite objects that perform sensing even while bearing large impact forces of 4000 lbs under extreme mechanical conditions.</p>
+                                <p style="text-align: left;"> <a href=" /files/FiberWire-CHI2019.pdf "> FiberWire </a> project demonstrates a method for engineering structural materials, like a carbon-fiber composite, to transmit electrical signals at a low loss and create composite objects with inherent circuitry and sensing capability via 3D printing. This system manufactures computational composite objects that perform sensing even while bearing large impact forces of 4000 lbs under extreme mechanical conditions.</p>
 					            <div class="row">
-					        		<div class="col-sm col-xs-8">
+					        		<div class="col-lg-7">
 					                    <img class="d-block w-100" src="/images/bike_picv5_verticle-min.png" alt="First slide" />
 					                </div>
-					                <div class="col-sm col-xs-4">
+					                <div class="col-sm-12 col-lg-5">
 					            		<div class="video-container">
 					                  		<iframe class="fitvidsignore" src="https://www.youtube.com/embed/3k4Eh-I3A1A" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					                  	</div>
-					          			<div class="col-sm col-xs-4" style="padding-left:0px;">      	
-							                 <div class="">
-							            				<h6> Collaboration:</h6>
-							            				<div class="row" style="margin-left: 0px;">
-							            				<div class="col-auto col-xs-4" style="padding:0px">  
-							            				<img style="max-width: 200px;" src="/images/CMU_Meche_logo.jpeg" alt="S-logo"/>
-							            				</div>
-							            				</div>	
-							           		</div>
-							           	</div>  		    		
+					                  	</div>	    		
 					                </div>
 					            </div>
+					            <br/>
                                 <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window

@@ -129,21 +129,54 @@
     }
   });
 
+
+
 $(document).ready(function(){
+
+//	if (!functionDone) {
+//        clearTimeout(timeout);
+//    }
 	
  	$("body").on("click",".portfolio-item",function(){
   	  	
     	//appending modal background inside the blue div
     	$('.modal-backdrop').appendTo('#main');   
-  });
+
 
 });
+
+
+});
+
+function PlayVideo(id){
+			var name = "video" + id;
+			var v = document.getElementById(name);
+			var proj = "project" + id;
+			var div = document.getElementById(proj);
+			div.style.backgroundColor = "rgba(222,222,222,0.8)";
+			div.style.transition = "background-color 0.7s";
+			v.autoplay = true;
+			v.load();
+		}
+		
+function StopVideoPlay(id){
+			var name = "video" + id;
+			var v = document.getElementById(name);
+			var proj = "project" + id;
+			var div = document.getElementById(proj);
+			div.style.backgroundColor = "white";
+			div.style.transition = "background-color 0.7s";
+			v.autoplay = false;
+			v.load();
+
+}
 
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
-<!-- end custom head snippets -->
-
+<!-- end custom head snippets --><!-- 
+  $(this).children().children("video")[0].pause(); -->
+   <!-- $(this).children().children("video")[0].play(); -->
   </head>
 
   <body>
@@ -168,16 +201,7 @@ $(document).ready(function(){
             <li class="masthead__menu-item"><a href="#pubs">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="/teaching/">Teaching</a></li>
-          
-            
             <li class="masthead__menu-item"><a href="files/Sai_updated_CV.pdf">CV</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="">Students</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="">Blog Posts</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -654,13 +678,13 @@ $(document).ready(function(){
 
     <div class="page__footer">
       <footer>
-        <!-- start custom footer snippets -->
+        <!-- start custom footer snippets 
 <a href="/sitemap/">Sitemap</a>
-<!-- end custom footer snippets -->
+end custom footer snippets -->
 
         
 
-<div class="page__footer-follow">
+<!-- <div class="page__footer-follow">
   <ul class="social-icons">
     
       <li><strong>Follow:</strong></li>
@@ -671,7 +695,7 @@ $(document).ready(function(){
     
     <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
-</div>
+</div> -->
 
 <div class="page__footer-copyright">&copy; 2021 Sai Ganesh Swaminathan. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 

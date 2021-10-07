@@ -6,15 +6,15 @@ main:
   - title: "Publications"
     url: "#pubs"
 
-  - title: "Teaching"
-    url: /teaching/    
+  # - title: "Teaching"
+  #   url: /teaching/    
  
   - title: "CV"
     url: files/Sai_updated_CV.pdf
 
-  - title: "Students"
-    url: 
+  # - title: "Students"
+  #   url: 
         
-  - title: "Blog Posts"
-    url: 
+  # - title: "Blog Posts"
+  #   url: 
     
