@@ -217,7 +217,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                 <div class="row justify-content-between">
                     <div class="rh col-md-6 col-lg-6 mb-5" id="project1" onmouseover="PlayVideo(1)" onmouseleave="StopVideoPlay(1)">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <video  preload="auto" id="video1" style= "margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source src="/files/duco-gifv3.mp4" type="video/mp4"><source type="video/webm" src="/files/duco-gifv3.webm"></video>
+                            <video  preload="auto" id="video1" style= "margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/duco-gifv3.webm"><source src="/files/duco-gifv3.mp4" type="video/mp4"></video>
                             <p><h6> Duco </h6></p>
                             <div class="col-sm col-xs-4" style="padding-left:0px;">    	
 	           				<div class="">
@@ -242,7 +242,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                     </div>            
                     <div class="rh col-md-6 col-lg-6 mb-5" id="project2" onmouseover="PlayVideo(2)" onmouseleave="StopVideoPlay(2)">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <video  preload="auto" id="video2" style= "margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source src="/files/optistructures-gifv2.mp4" type="video/mp4"><source type="video/webm" src="/files/optistructures-gifv2.webm"></video>
+                            <video  preload="auto" id="video2" style= "margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/optistructures-gifv2.webm"><source src="/files/optistructures-gifv2.mp4" type="video/mp4"></video>
                              <p> <h6>OptiStructures </h6> </p>
                             <div class="col-sm col-xs-4" style="padding-left:0px;">      	
 				                 <div class="">
@@ -268,7 +268,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                 <div class="row justify-content-between">	    
                     <div class="rh col-md-6 col-lg-6 mb-5" id="project3" onmouseover="PlayVideo(3)" onmouseleave="StopVideoPlay(3)">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <video  preload="auto" id="video3" style= "margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source src="/files/pneumatic-gifv3.mp4" type="video/mp4"><source type="video/webm" src="/files/pneumatic-gifv3.webm"></video> 
+                            <video  preload="auto" id="video3" style= "margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/pneumatic-gifv3.webm"><source src="/files/pneumatic-gifv3.mp4" type="video/mp4"></video> 
                             <p><h6> Computational Depolyable Structures </h6></p>
                             <div class="col-sm col-xs-4" style="padding-left:0px;">      	
 				                 <div class="">
@@ -286,7 +286,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                    </div>
                     <div class="rh col-md-6 col-lg-6 mb-5 mb-lg-0" id="project4" onmouseover="PlayVideo(4)" onmouseleave="StopVideoPlay(4)" >
                         <div class="rh portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <video   preload="auto" id="video4" style= "margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source src="/files/fiberwire-gifv2.mp4" type="video/mp4"><source type="video/webm" src="/files/fiberwire-gifv2.webm"></video>    
+                            <video   preload="auto" id="video4" style= "margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/fiberwire-gifv2.webm"><source src="/files/fiberwire-gifv2.mp4" type="video/mp4"></video>    
                             <p> <h6> FiberWire </h6></p>	
                             <div class="col-sm col-xs-4" style="padding-left:0px;">      	
 			                 	<div class="">
@@ -357,7 +357,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
 			<div class="publication_column right"> <a href=" /files/project/"><b> Duco: Autonomous Large-Scale Direct-Circuit-Writing (DCW) on Vertical Everyday Surfaces Using A Scalable Hanging Plotter </b></a>.
 			<br /> Tingyu Cheng, Bu Li, Yang Zhang, Yunzhi Li, Charles Ramey, Eui Min Jung, Yepu Cui,  <b> Saiganesh Swaminathan</b>, Youngwook Do, Manos Tentzeris, Gregory D. Abowd, HyunJoo Oh. 
 				<br /> In Proceedings of ACM Conference on Interactive, Mobile, Wearable and Ubiquitous Technologies (UbiComp 2021).
-				<br /> [<a href=" ">Paper PDF (coming soon)</a>] [<a href="">ACM DL (coming soon)</a>] [<a href=" ">Demo Video (Coming Soon)</a>]</div>
+				<br /> [<a href="files/duco-UbiComp2021.pdf">Paper PDF</a>] [<a href="https://dl.acm.org/doi/10.1145/3478118">ACM DL</a>] [<a href="https://www.youtube.com/M0_BdEHfByM">Demo Video</a>]</div>
 		</div>
 </article>			
 </div>
