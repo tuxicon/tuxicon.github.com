@@ -213,7 +213,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                 <div class="row justify-content-between">
                     <div style="margin-bottom: 0px" class="rh col-md-6 col-lg-6 mb-5" id="project1" onmouseover="PlayVideo(1)" onmouseleave="StopVideoPlay(1)">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <video  preload="auto" id="video1" style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/duco-gifv3.webm"><source src="/files/duco-gifv3.mp4" type="video/mp4"></video>
+                            <video  preload="auto" id="video1" poster="/images/project/thumb_ducov2.png" style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/duco-gifv3.webm"><source src="/files/duco-gifv3.mp4" type="video/mp4"></video>
                             <h6> Duco </h6>
                             <div class="col-sm col-xs-4" style="padding-left:0px;">    	
 	           				<div class="">
@@ -238,7 +238,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                     </div>            
                     <div style="margin-bottom: 0px" class="rh col-md-6 col-lg-6 mb-5" id="project2" onmouseover="PlayVideo(2)" onmouseleave="StopVideoPlay(2)">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <video  preload="auto" id="video2" style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/optistructures-gifv2.webm"><source src="/files/optistructures-gifv2.mp4" type="video/mp4"></video>
+                            <video  preload="auto" id="video2" poster="/images/project/thumb_optiv3.png" style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/optistructures-gifv2.webm"><source src="/files/optistructures-gifv2.mp4" type="video/mp4"></video>
                              <h6>OptiStructures </h6>
                             <div class="col-sm col-xs-4" style="padding-left:0px;">      	
 				                 <div class="">
@@ -264,7 +264,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                 <div class="row justify-content-between">	    
                     <div style="margin-bottom: 1rem" class="rh col-md-6 col-lg-6 mb-5" id="project3" onmouseover="PlayVideo(3)" onmouseleave="StopVideoPlay(3)">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <video  preload="auto" id="video3" style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/pneumatic-gifv3.webm"><source src="/files/pneumatic-gifv3.mp4" type="video/mp4"></video> 
+                            <video  preload="auto" id="video3" poster="/images/project/thumb_pneumaticv2.png"  style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/pneumatic-gifv3.webm"><source src="/files/pneumatic-gifv3.mp4" type="video/mp4"></video> 
                             <h6> Computational Depolyable Structures </h6>
                             <div class="col-sm col-xs-4" style="padding-left:0px;">      	
 				                 <div class="">
@@ -282,7 +282,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                    </div>
                     <div style="margin-bottom: 1rem" class="rh col-md-6 col-lg-6 mb-5 mb-lg-0" id="project4" onmouseover="PlayVideo(4)" onmouseleave="StopVideoPlay(4)" >
                         <div class="rh portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <video   preload="auto" id="video4" style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/fiberwire-gifv2.webm"><source src="/files/fiberwire-gifv2.mp4" type="video/mp4"></video>    
+                            <video   preload="auto" poster="/images/project/thumb_fiberv2.png" id="video4" style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/fiberwire-gifv2.webm"><source src="/files/fiberwire-gifv2.mp4" type="video/mp4"></video>    
                             <h6> FiberWire </h6>	
                             <div class="col-sm col-xs-4" style="padding-left:0px;">      	
 			                 	<div class="">
