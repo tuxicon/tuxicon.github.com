@@ -1489,7 +1489,7 @@ tr, td, th {
 }
 .masthead__menu-item--lg {
   padding-right: 2em;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -1692,7 +1692,7 @@ tr, td, th {
   padding: 0 0.5rem;
   border: 0;
   outline: none;
-  background-color: #7a8288;
+  background-color: #7a8288 !important;
   color: #fff;
   cursor: pointer;
 }
