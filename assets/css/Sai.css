@@ -29,6 +29,11 @@ html {
 }
 
 
+.badge-left{display:inline-block}
+.badge-right{display:inline-block; float:right}
+
+
+
 /*.video-container {
 position:relative;
 height:18em;
