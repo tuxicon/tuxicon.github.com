@@ -248,7 +248,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
                             <h6>OptiStructures:</h6>
 							<span class="badge badge-secondary">Photonics</span>
 							<span class="badge badge-secondary">Bragg-Gratings</span>
-							<span class="badge badge-secondary">Mach-Zender Interferometer</span>
+							<span class="badge badge-secondary">Interferometery</span>
 							<span class="badge badge-secondary">Battery-Free</span>
 							<span class="badge badge-secondary">Concrete</span>
 							<span class="badge badge-secondary">Plaster</span>
@@ -291,7 +291,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
 				            				<img style="max-width: 150px;" src="/images/CMU_Meche_logo.jpeg" alt="S-logo"/>
 				            				</div>
 				            				<div class="col-auto col-xs-4" style="padding:0px">  
-				            				<img style="padding-left: 10px; max-width: 220px; margin-top:20px;" src="/images/CMU_Arch.jpeg" alt="S-logo"/>
+				            				<img style="padding-left: 10px; max-width: 170px; margin-top:20px;" src="/images/CMU_Arch.jpeg" alt="S-logo"/>
 				            				</div>
 				            				</div>	
 				           		</div>
