@@ -216,7 +216,89 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
 
    <section class="page-section portfolio" id="portfolio">
             <div class="container">
-                <div class="row justify-content-between">
+                <div class="row justify-content-between">        
+                    <div style="margin-bottom: 0px" class="rh col-md-6 col-lg-6 mb-5" id="project2" onmouseover="PlayVideo(2)" onmouseleave="StopVideoPlay(2)">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <video  preload="auto" id="video2" poster="/images/project/thumb_optiv3.png" style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/optistructures-gifv2.webm"><source src="/files/optistructures-gifv2.mp4" type="video/mp4"></video>	
+                            <h6>OptiStructures:</h6>
+							<span class="badge badge-secondary">Photonics</span>
+							<span class="badge badge-secondary">Bragg-Gratings</span>
+							<span class="badge badge-secondary">Fabry–Pérot Interferometery</span>
+							<span class="badge badge-secondary">Battery-Free</span>
+							<span class="badge badge-secondary">Concrete</span>
+							<span class="badge badge-secondary">Plaster</span>
+                            <div class="col-sm col-xs-4" style="padding-left:0px;">      	
+				                 <div style="padding-top: 10px;">
+				            				<h6> Collaboration</h6>
+				            				<div class="row" style="margin-left: 0px;">
+				            				<div class="col-auto col-xs-4" style="padding:0px">  
+				            				<img style="max-width: 25px;" src="/images/stree.png" alt="S-logo"/>
+				            				</div>
+				            				<div class="col-auto col-xs-4" style="padding: 0px">  		
+				            				<img style="max-width: 160px;" src="/images/Stanford-CEElogo.jpeg" alt="S-logo"/>
+				            				</div>
+				            				<div class="col-auto col-xs-4" style="padding: 0px">  		
+				            				<img style="max-width: 200px;" src="/images/cmu-cee.png" alt="cmucee-logo"/>
+				            				</div>
+				            				</div>	
+				           		 </div>
+				           	</div>	
+				           	<br/>		
+				            <a class="exp" style="font-weight: bold;  text-transform: uppercase; color: rgba(165,20,23,1);">Show Details</a>		
+                    </div>
+                </div>
+                <div style="margin-bottom: 1rem" class="rh col-md-6 col-lg-6 mb-5" id="project3" onmouseover="PlayVideo(3)" onmouseleave="StopVideoPlay(3)">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <video  preload="auto" id="video3" poster="/images/project/thumb_pneumaticv2.png"  style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/pneumatic-gifv3.webm"><source src="/files/pneumatic-gifv3.mp4" type="video/mp4"></video> 
+                            <h6> Computational Depolyable Structures </h6>
+							<span class="badge badge-secondary">Swept Frequency Ultrasonics</span>
+							<span class="badge badge-secondary">Sensors</span>
+							<span class="badge badge-secondary">Large-scale Actuators</span>
+							<span class="badge badge-secondary">Room-Scale Pneumatics</span>
+							<span class="badge badge-secondary">Trusses</span>
+                            <div class="col-sm col-xs-4" style="padding-left:0px;">      	
+				                 <div style="padding-top: 10px;">
+				            				<h6> Collaboration:</h6>
+				            				<div class="row" style="margin-left: 0px;">
+				            				<div class="col-auto col-xs-4" style="padding:0px">  
+				            				<img style="max-width: 150px;" src="/images/CMU_Meche_logo.jpeg" alt="S-logo"/>
+				            				</div>
+				            				<div class="col-auto col-xs-4" style="padding:0px">  
+				            				<img style="padding-left: 10px; max-width: 170px; margin-top:20px;" src="/images/CMU_Arch.jpeg" alt="S-logo"/>
+				            				</div>
+				            				</div>	
+				           		</div>
+		           			</div>	
+		           			<br/>		
+				            <a class="exp" style="font-weight: bold;  text-transform: uppercase; color: rgba(165,20,23,1);">Show Details</a>				 	
+                        </div>
+                   </div>
+              </div>      
+                <div class="row justify-content-between">	    
+                    <div style="margin-bottom: 1rem" class="rh col-md-6 col-lg-6 mb-5 mb-lg-0" id="project4" onmouseover="PlayVideo(4)" onmouseleave="StopVideoPlay(4)" >
+                        <div class="rh portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <video   preload="auto" poster="/images/project/thumb_fiberv2.png" id="video4" style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/fiberwire-gifv2.webm"><source src="/files/fiberwire-gifv2.mp4" type="video/mp4"></video>    
+                            <h6> FiberWire </h6>
+                            <span class="badge badge-secondary">Carbon-Fiber Composites</span>
+							<span class="badge badge-secondary">Advanced Structural Materials</span>
+							<span class="badge badge-secondary">3D printing</span>
+							<span class="badge badge-secondary">Electronic Interfacing</span>
+							<span class="badge badge-secondary">Form Factor</span>
+							<span class="badge badge-secondary">Strong</span>		
+                            <div class="col-sm col-xs-4" style="padding-left:0px;">      	
+			                 	<div style="padding-top: 10px;">
+			            				<h6> Collaboration:</h6>
+			            				<div class="row" style="margin-left: 0px;">
+			            				<div class="col-auto col-xs-4" style="padding:0px">  
+			            				<img style="max-width: 150px;" src="/images/CMU_Meche_logo.jpeg" alt="S-logo"/>
+			            				</div>
+			            				</div>	
+			           			</div>
+		           			</div>
+		           			<br/>		
+				            <a class="exp" style="font-weight: bold;  text-transform: uppercase; color: rgba(165,20,23,1);">Show Details</a>				 		
+                        </div>
+                    </div>
                     <div style="margin-bottom: 0px" class="rh col-md-6 col-lg-6 mb-5" id="project1" onmouseover="PlayVideo(1)" onmouseleave="StopVideoPlay(1)">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <video  preload="auto" id="video1" poster="/images/project/thumb_ducov2.png" style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/duco-gifv3.webm"><source src="/files/duco-gifv3.mp4" type="video/mp4"></video>
@@ -247,89 +329,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
 	            			</div>
                             <!-- <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." /> -->
                         </div>
-                    </div>            
-                    <div style="margin-bottom: 0px" class="rh col-md-6 col-lg-6 mb-5" id="project2" onmouseover="PlayVideo(2)" onmouseleave="StopVideoPlay(2)">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <video  preload="auto" id="video2" poster="/images/project/thumb_optiv3.png" style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/optistructures-gifv2.webm"><source src="/files/optistructures-gifv2.mp4" type="video/mp4"></video>	
-                            <h6>OptiStructures:</h6>
-							<span class="badge badge-secondary">Photonics</span>
-							<span class="badge badge-secondary">Bragg-Gratings</span>
-							<span class="badge badge-secondary">Interferometery</span>
-							<span class="badge badge-secondary">Battery-Free</span>
-							<span class="badge badge-secondary">Concrete</span>
-							<span class="badge badge-secondary">Plaster</span>
-                            <div class="col-sm col-xs-4" style="padding-left:0px;">      	
-				                 <div style="padding-top: 10px;">
-				            				<h6> Collaboration</h6>
-				            				<div class="row" style="margin-left: 0px;">
-				            				<div class="col-auto col-xs-4" style="padding:0px">  
-				            				<img style="max-width: 25px;" src="/images/stree.png" alt="S-logo"/>
-				            				</div>
-				            				<div class="col-auto col-xs-4" style="padding: 0px">  		
-				            				<img style="max-width: 160px;" src="/images/Stanford-CEElogo.jpeg" alt="S-logo"/>
-				            				</div>
-				            				<div class="col-auto col-xs-4" style="padding: 0px">  		
-				            				<img style="max-width: 200px;" src="/images/cmu-cee.png" alt="cmucee-logo"/>
-				            				</div>
-				            				</div>	
-				           		 </div>
-				           	</div>	
-				           	<br/>		
-				            <a class="exp" style="font-weight: bold;  text-transform: uppercase; color: rgba(165,20,23,1);">Show Details</a>		
-                    </div>
-                </div>
-              </div>      
-                <div class="row justify-content-between">	    
-                    <div style="margin-bottom: 1rem" class="rh col-md-6 col-lg-6 mb-5" id="project3" onmouseover="PlayVideo(3)" onmouseleave="StopVideoPlay(3)">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <video  preload="auto" id="video3" poster="/images/project/thumb_pneumaticv2.png"  style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/pneumatic-gifv3.webm"><source src="/files/pneumatic-gifv3.mp4" type="video/mp4"></video> 
-                            <h6> Computational Depolyable Structures </h6>
-							<span class="badge badge-secondary">Swept Frequency Ultrasonics</span>
-							<span class="badge badge-secondary">Sensors</span>
-							<span class="badge badge-secondary">Large-scale Actuators</span>
-							<span class="badge badge-secondary">Room-Scale Pneumatics</span>
-							<span class="badge badge-secondary">Trusses</span>
-                            <div class="col-sm col-xs-4" style="padding-left:0px;">      	
-				                 <div style="padding-top: 10px;">
-				            				<h6> Collaboration:</h6>
-				            				<div class="row" style="margin-left: 0px;">
-				            				<div class="col-auto col-xs-4" style="padding:0px">  
-				            				<img style="max-width: 150px;" src="/images/CMU_Meche_logo.jpeg" alt="S-logo"/>
-				            				</div>
-				            				<div class="col-auto col-xs-4" style="padding:0px">  
-				            				<img style="padding-left: 10px; max-width: 170px; margin-top:20px;" src="/images/CMU_Arch.jpeg" alt="S-logo"/>
-				            				</div>
-				            				</div>	
-				           		</div>
-		           			</div>	
-		           			<br/>		
-				            <a class="exp" style="font-weight: bold;  text-transform: uppercase; color: rgba(165,20,23,1);">Show Details</a>				 	
-                        </div>
-                   </div>
-                    <div style="margin-bottom: 1rem" class="rh col-md-6 col-lg-6 mb-5 mb-lg-0" id="project4" onmouseover="PlayVideo(4)" onmouseleave="StopVideoPlay(4)" >
-                        <div class="rh portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <video   preload="auto" poster="/images/project/thumb_fiberv2.png" id="video4" style= "min-height: 253px; margin-top: 1em" loop="" muted="" playsinline="" width="100%"><source type="video/webm" src="/files/fiberwire-gifv2.webm"><source src="/files/fiberwire-gifv2.mp4" type="video/mp4"></video>    
-                            <h6> FiberWire </h6>
-                            <span class="badge badge-secondary">Carbon-Fiber Composites</span>
-							<span class="badge badge-secondary">Advanced Structural Materials</span>
-							<span class="badge badge-secondary">3D printing</span>
-							<span class="badge badge-secondary">Electronic Interfacing</span>
-							<span class="badge badge-secondary">Form Factor</span>
-							<span class="badge badge-secondary">Strong</span>		
-                            <div class="col-sm col-xs-4" style="padding-left:0px;">      	
-			                 	<div style="padding-top: 10px;">
-			            				<h6> Collaboration:</h6>
-			            				<div class="row" style="margin-left: 0px;">
-			            				<div class="col-auto col-xs-4" style="padding:0px">  
-			            				<img style="max-width: 150px;" src="/images/CMU_Meche_logo.jpeg" alt="S-logo"/>
-			            				</div>
-			            				</div>	
-			           			</div>
-		           			</div>
-		           			<br/>		
-				            <a class="exp" style="font-weight: bold;  text-transform: uppercase; color: rgba(165,20,23,1);">Show Details</a>				 		
-                        </div>
-                    </div>
+                    </div>    
                 </div>
            </div>  
     </section>
