@@ -594,7 +594,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
 					            </p>
 					            <div class="row">
 					        		<div class="col-lg-6">
-					                    <img style="width:-webkit-fill-available;" class="d-block w-100" src="/images/RS-Fig2.png" alt="Third slide" />
+					                    <img style="width:-webkit-fill-available;" class="d-block w-100" src="/images/RS-Fig2-min.png" alt="Third slide" />
 					                </div>
 					                <div class="col-sm-12 col-lg-6">
 					            		<div class="video-container">
