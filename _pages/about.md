@@ -19,6 +19,21 @@ Lab (ORNL) </a>, <a href="http://research.microsoft.com/en-us/groups/tem/">Micro
 Ph.D, I completed a dual degree master’s from Technical University of Berlin and
 Universite Paris-Sud XI.
 
+
+<div style="font-size: 14.5px  !important; border: 2px dashed #ddd; border-radius: 3px;padding: 10px;" class="notice center-block full">
+    I am currently on the job market. If you have openings, please <a style="color:#a51417" href="mailto:saiganes@cmu.edu" title="Email">get in touch</a>.
+    <br>
+    <span class="job-links center-block full">
+        <a style="color:#a51417" href="https://drive.google.com/file/d/195fGFvRrq-TkfjZfAhnBzHZw5UPsgcee/view?usp=sharing" target="_blank" title="Curriculum Vitae">Curriculum Vitae</a>
+        <span class="separator"> / </span>
+        <a style="color:#a51417" href="https://drive.google.com/file/d/1QeieRszu_ZJFS_HgP4WuQhO_9lbviQ4R/view?usp=sharing" target="_blank" title="Research Statement">Research Statement</a>
+        <span class="separator"> / </span>
+        <a style="color:#a51417" href="https://drive.google.com/file/d/1FPM_LacJtjlDNP0nZRusZ1Yjbl1TEiCf/view?usp=sharing" target="_blank" title="Teaching Statement">Teaching Statement</a>
+        <span class="separator"> / </span>
+        <a  style="color:#a51417" href="https://drive.google.com/file/d/1EpSvkEzjoYzRLWktDwiaJ00zJUKe-hot/view?usp=sharing" target="_blank" title="Diversity, Equity, and Inclusion Statement">DEI Statement</a>
+    </span>
+</div>
+
 <h5 id="rs">Interactive Computational Materials for the Networked Built Environment </h5>
 ------
 <!-- My long-term research vision is to enable affordable and sustainable cyber infrastructure (buildings, parks, structures, sidewalks, etc.) that fits people's aspirations and needs. 
@@ -28,12 +43,12 @@ My application-driven approach often leads to building computational artifacts f
 
 
 
-The key idea of ubiquitous computing is that as computers get miniaturized and powerful, they can be applied cheaply to digitize the physical infrastructure (rooms, buildings, structures, bridges, etc.). Unfortunately, this vision is not entirely realized due to the <b>end of Moore’s law and Dennard scaling.</b> As a result, our devices remain power-hungry, are not seamlessly integrated, and continue to be manufactured using yesterday’s design ideas and technology. To date, the focus of device manufacturing has been on miniaturization and packing the most functionality into the smallest form factors, even though our <b>physical infrastructure is much larger</b> in scale. Miniaturized devices need to be deployed in massive quantities to enable interactivity in the built environment (buildings, sidewalks, etc.), leading to <b>unsustainable power consumption</b> as many devices require numerous batteries. Instead of today's power-hungry boxed form factors, we need to create battery-free devices with various form factors and materials. For example, I <b> integrate computing with extremely strong materials (e.g, concrete, and wood)</b> that make up our environments, and build <b>battery-free</b> interactive devices in structural forms like walls and tables. 
+The key idea of ubiquitous computing is that as computers get miniaturized and powerful, they can be applied cheaply to digitize the physical infrastructure (rooms, buildings, structures, bridges, etc.). Unfortunately, this vision is not entirely realized due to the <b>end of Moore’s law and Dennard scaling.</b> As a result, our devices remain power-hungry, are not seamlessly integrated, and continue to be manufactured using yesterday’s design ideas and technology. To date, the focus of device manufacturing has been on miniaturization and packing the most functionality into the smallest form factors, even though our <b>physical infrastructure is much larger</b> in scale. Miniaturized devices need to be deployed in massive quantities to enable interactivity in the built environment (buildings, sidewalks, etc.), leading to <b>unsustainable power consumption</b> as many devices require numerous batteries. Instead of today's power-hungry boxed form factors, we need to create battery-free devices with various form factors and materials. For example, I <b> integrate computing with extremely strong non-silicon materials (e.g, concrete, and wood)</b> that make up our environments, and build <b>battery-free</b> interactive devices in structural forms like walls and tables. 
  
 
 As an experimental computer scientist and Human-Computer Interaction (HCI) researcher, I introduce <b>computationally engineered materials that enable low-power, integrated sensing, and actuation in the networked physical infrastructure (e.g., buildings) forms</b>. This effort is a highly interdisciplinary endeavor and has collaborators in various fields such as HCI/CS, ECE (Electrical and Computer engineering), CEE (Civil and Environmental Engineering), Materials Science, and Manufacturing from across research institutions.
 
-<img style="" src="/images/vision_saiv2.png" alt="" />
+<img style="" src="/images/vision_saiv4.jpg" alt="" />
 
 
 <h5>Recent Research Highlights:</h5>

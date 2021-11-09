@@ -91,6 +91,16 @@ height:100%;
 }
 
 
+.whole, .full {
+    width: 100%;
+}
+
+.center-block {
+    display: inline-block;
+    text-align: center;
+}
+
+
 
 .video-container {
 position:relative;

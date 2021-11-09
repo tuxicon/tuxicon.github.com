@@ -83,7 +83,7 @@ author:
   name             : "Sai Ganesh Swaminathan"
   avatar           : "Sai_photo_high_res.jpeg"
   bio              : "PhD Student at Carnegie Mellon University"
-  location         : "Pittsburgh"
+  location         :
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : 
