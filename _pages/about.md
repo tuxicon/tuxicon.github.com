@@ -392,6 +392,21 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
 }
 </style>
 <div class=" list__item">
+  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+    <div class="publication_row">
+      <div class="publication_column left"> <img src="/images/project/flexible_electronics.png" alt="" />
+        <br />
+        <br /><b>npj Flexible Electronics 2022</b></div>
+      <div class="publication_column right"> <a href=" /files/project/"><b> Flexible Computational Photodetectors for Self-Powered Activity Sensing</b></a>.
+      <br /> Dingtian Zhang, Canek Fuentes-Hernandez, Raaghesh Vijayan, Yang Zhang, Yunzhi Li, Jung Wook Park, Yiyang Wang, Yuhui Zhao, Nivedita Arora, Ali Mirzazadeh, Youngwook Do, Tingyu Cheng, <b> Saiganesh Swaminathan </b>, Thad Starner, Trisha L. Andrew and Gregory D. Abowd 
+        <br /> In Proceedings of ACM Conference on Interactive, Mobile, Wearable and Ubiquitous Technologies (UbiComp 2021).
+        <br /> [<a href="files/computational-photodetectors.pdf">Paper PDF</a>] [<a href="https://www.nature.com/articles/s41528-022-00137-z"> Flexible Electronics DL</a>]</div>
+    </div>
+</article>      
+</div>
+
+
+<div class=" list__item">
 	<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
 		<div class="publication_row">
 			<div class="publication_column left"> <img src="/images/project/duco_robot.png" alt="" />
