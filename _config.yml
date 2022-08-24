@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sai Ganesh Swaminathan"
 title_separator          : "-"
 name                     : &name "Sai Ganesh Swaminathan"
-description              : &description "PhD Student at Carnegie Mellon University"
+description              : &description "Assistant Professor at the University of Tennessee"
 url                      : https://tuxicon.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : tuxicon/tuxicon.github.com
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Sai Ganesh Swaminathan"
   avatar           : "Sai_photo_high_res.jpeg"
-  bio              : "PhD Student at Carnegie Mellon University"
-  location         :
+  bio              : "Assistant Professor at the University of Tennessee"
+  location         : "MK 308"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : 
-  email            :
+  email            : sai@utk.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

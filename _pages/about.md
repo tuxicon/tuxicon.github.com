@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. Candidate at the <a href="http://www.hcii.cmu.edu/">  Human-Computer Interaction Institute </a> in the <a href="https://www.cs.cmu.edu/"> School of Computer Science </a> of
-<a href="http://www.cmu.edu"> Carnegie Mellon University </a>. I'm advised by <a href="http://www.scotthudson.com" target="_blank">Scott Hudson</a> in the <a href="https://cmu-devlab.github.io/"> Devlab </a>. I work at the intersection of
+I'm an assitant professor in the <a href="http://www.eecs.utk.edu" target="_blank"> Min H. Kao Department of Electrical Engineering and Computer Science (EECS) </a> at the <a href="http://www.utk.edu" target="_blank"> University of Tennessee </a> (UT). Previously, I was a Ph.D. Candidate at the <a href="http://www.hcii.cmu.edu/">  Human-Computer Interaction Institute </a> in the <a href="https://www.cs.cmu.edu/"> School of Computer Science </a> of
+<a href="http://www.cmu.edu"> Carnegie Mellon University </a>, where I was advised by <a href="http://www.scotthudson.com" target="_blank">Scott Hudson</a> in the <a href="https://cmu-devlab.github.io/"> Devlab </a>. I work at the intersection of
 Human-Computer Interaction, Ubiquitous Computing, Computational Materials Manufacturing and Cyber-Physical Human Systems. My work has been published at top-tier HCI venues,
 including ACM CHI, IMWUT (UbiComp), UIST, and CSCW, winning best honorable mention
 award and has also featured on news outlets like New Scientist, Makezine, etc. 
@@ -20,19 +20,15 @@ Ph.D, I completed a dual degree master’s from Technical University of Berlin a
 Universite Paris-Sud XI.
 
 
-<!-- <div style="font-size: 14.5px  !important; border: 2px dashed #ddd; border-radius: 3px;padding: 10px;" class="notice center-block full">
-    I am currently on the job market. If you have openings, please <a style="color:#a51417" href="mailto:saiganes@cmu.edu" title="Email">get in touch</a>.
+<div style="font-size: 14.5px  !important; border: 2px dashed #ddd; border-radius: 3px;padding: 10px;" class="notice center-block full">
+    I am actively looking for motivated tudents (including Ph.D., masters and undergraduate students) and visiting scholars to join my lab. At UT, I will lead the Energy, Printed Infrastructure and Interactive Computing (EPIC Lab). More details to follow, for a deeper understanding of the lab's effort, please see the research statement and video of my talk below. If that sounds interesting to you, please send me an email to <a style="color:#a51417" href="mailto:saiganes@utk.edu" title="Email">get in touch</a>.
     <br>
     <span class="job-links center-block full">
-        <a style="color:#a51417" href="https://drive.google.com/file/d/195fGFvRrq-TkfjZfAhnBzHZw5UPsgcee/view?usp=sharing" target="_blank" title="Curriculum Vitae">Curriculum Vitae</a>
-        <span class="separator"> / </span>
         <a style="color:#a51417" href="https://drive.google.com/file/d/1QeieRszu_ZJFS_HgP4WuQhO_9lbviQ4R/view?usp=sharing" target="_blank" title="Research Statement">Research Statement</a>
         <span class="separator"> / </span>
-        <a style="color:#a51417" href="https://drive.google.com/file/d/1FPM_LacJtjlDNP0nZRusZ1Yjbl1TEiCf/view?usp=sharing" target="_blank" title="Teaching Statement">Teaching Statement</a>
-        <span class="separator"> / </span>
-        <a  style="color:#a51417" href="https://drive.google.com/file/d/1EpSvkEzjoYzRLWktDwiaJ00zJUKe-hot/view?usp=sharing" target="_blank" title="Diversity, Equity, and Inclusion Statement">DEI Statement</a>
+        <a style="color:#a51417" href="https://drive.google.com/file/d/1lWEHoWffpmWxqR_VIfdMComHHUrx-wau/view?usp=sharing" target="_blank" title="Talk Video">Talk Video</a>
     </span>
-</div> -->
+</div>
 
 <h5 id="rs">Interactive Computational Materials for the Networked Built Environment </h5>
 ------
@@ -399,7 +395,6 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
         <br /><b>npj Flexible Electronics 2022</b></div>
       <div class="publication_column right"> <a href=" /files/project/"><b> Flexible Computational Photodetectors for Self-Powered Activity Sensing</b></a>.
       <br /> Dingtian Zhang, Canek Fuentes-Hernandez, Raaghesh Vijayan, Yang Zhang, Yunzhi Li, Jung Wook Park, Yiyang Wang, Yuhui Zhao, Nivedita Arora, Ali Mirzazadeh, Youngwook Do, Tingyu Cheng, <b> Saiganesh Swaminathan </b>, Thad Starner, Trisha L. Andrew and Gregory D. Abowd 
-        <br /> In Proceedings of ACM Conference on Interactive, Mobile, Wearable and Ubiquitous Technologies (UbiComp 2021).
         <br /> [<a href="files/computational-photodetectors.pdf">Paper PDF</a>] [<a href="https://www.nature.com/articles/s41528-022-00137-z"> Flexible Electronics DL</a>]</div>
     </div>
 </article>      
