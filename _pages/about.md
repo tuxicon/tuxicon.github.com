@@ -21,7 +21,7 @@ Universite Paris-Sud XI.
 
 
 <div style="font-size: 14.5px  !important; border: 2px dashed #ddd; border-radius: 3px;padding: 10px;" class="notice center-block full">
-    I am actively looking for motivated tudents (including Ph.D., masters and undergraduate students) and visiting scholars to join my lab. At UT, I will lead the Energy, Printed Infrastructure and Interactive Computing (EPIC Lab). More details to follow, for a deeper understanding of the lab's effort, please see the research statement and video of my talk below. If that sounds interesting to you, please send me an email to <a style="color:#a51417" href="mailto:saiganes@utk.edu" title="Email">get in touch</a>.
+    I am actively looking for motivated students (including Ph.D., masters and undergraduate students) and visiting scholars to join my lab. At UT, I will lead the Energy, Printed Infrastructure and Interactive Computing (EPIC Lab). More details to follow, for a deeper understanding of the lab's effort, please see the research statement and video of my talk below. If that sounds interesting to you, please send me an email to <a style="color:#a51417" href="mailto:saiganes@utk.edu" title="Email">get in touch</a>.
     <br>
     <span class="job-links center-block full">
         <a style="color:#a51417" href="https://drive.google.com/file/d/1QeieRszu_ZJFS_HgP4WuQhO_9lbviQ4R/view?usp=sharing" target="_blank" title="Research Statement">Research Statement</a>
