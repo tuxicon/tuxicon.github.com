@@ -393,7 +393,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
       <div class="publication_column left"> <img src="/images/project/flexible_electronics.png" alt="" />
         <br />
         <br /><b>npj Flexible Electronics 2022</b></div>
-      <div class="publication_column right"> <a href=" /files/project/"><b> Flexible Computational Photodetectors for Self-Powered Activity Sensing</b></a>.
+      <div class="publication_column right"> <a href=" /files/computational-photodetectors.pdf"><b> Flexible Computational Photodetectors for Self-Powered Activity Sensing</b></a>
       <br /> Dingtian Zhang, Canek Fuentes-Hernandez, Raaghesh Vijayan, Yang Zhang, Yunzhi Li, Jung Wook Park, Yiyang Wang, Yuhui Zhao, Nivedita Arora, Ali Mirzazadeh, Youngwook Do, Tingyu Cheng, <b> Saiganesh Swaminathan </b>, Thad Starner, Trisha L. Andrew and Gregory D. Abowd 
         <br /> [<a href="files/computational-photodetectors.pdf">Paper PDF</a>] [<a href="https://www.nature.com/articles/s41528-022-00137-z"> Flexible Electronics DL</a>]</div>
     </div>
@@ -407,7 +407,7 @@ As an experimental computer scientist and Human-Computer Interaction (HCI) resea
 			<div class="publication_column left"> <img src="/images/project/duco_robot.png" alt="" />
 				<br />
 				<br /><b>UbiComp 2021</b></div>
-			<div class="publication_column right"> <a href=" /files/project/"><b> Duco: Autonomous Large-Scale Direct-Circuit-Writing (DCW) on Vertical Everyday Surfaces Using A Scalable Hanging Plotter </b></a>.
+			<div class="publication_column right"> <a href=" /files/duco-UbiComp2021.pdf"><b> Duco: Autonomous Large-Scale Direct-Circuit-Writing (DCW) on Vertical Everyday Surfaces Using A Scalable Hanging Plotter </b></a>.
 			<br /> Tingyu Cheng, Bu Li, Yang Zhang, Yunzhi Li, Charles Ramey, Eui Min Jung, Yepu Cui,  <b> Saiganesh Swaminathan</b>, Youngwook Do, Manos Tentzeris, Gregory D. Abowd, HyunJoo Oh. 
 				<br /> In Proceedings of ACM Conference on Interactive, Mobile, Wearable and Ubiquitous Technologies (UbiComp 2021).
 				<br /> [<a href="files/duco-UbiComp2021.pdf">Paper PDF</a>] [<a href="https://dl.acm.org/doi/10.1145/3478118">ACM DL</a>] [<a href="https://www.youtube.com/M0_BdEHfByM">Demo Video</a>]</div>
