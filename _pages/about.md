@@ -8,8 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm an assitant professor in the <a href="http://www.eecs.utk.edu" target="_blank"> Min H. Kao Department of Electrical Engineering and Computer Science (EECS) </a> at the <a href="http://www.utk.edu" target="_blank"> University of Tennessee </a> (UT). Previously, I was a Ph.D. Candidate at the <a href="http://www.hcii.cmu.edu/">  Human-Computer Interaction Institute </a> in the <a href="https://www.cs.cmu.edu/"> School of Computer Science </a> of
-<a href="http://www.cmu.edu"> Carnegie Mellon University </a>, where I was advised by <a href="http://www.scotthudson.com" target="_blank">Scott Hudson</a> in the <a href="https://cmu-devlab.github.io/"> Devlab </a>. I work at the intersection of
+I'm an assitant professor in the <a href="http://www.eecs.utk.edu" target="_blank"> Min H. Kao Department of Electrical Engineering and Computer Science (EECS) </a> at the <a href="http://www.utk.edu" target="_blank"> University of Tennessee </a> (UT). AT UT, I lead the <a style="font-weight: 600" href="https://epic.eecs.utk.edu/"> Energy, Printed Infrastructure and Interactive Computing (EPIC) lab</a> -- where our goal is to advance interactive technologies that enable computational materials with low-power, integrated sensing, actuation and communication in the physical infrastructure.
+
+
+I recieved my Ph.D. from the <a href="http://www.hcii.cmu.edu/">  Human-Computer Interaction Institute </a> in the <a href="https://www.cs.cmu.edu/"> School of Computer Science </a> of
+<a href="http://www.cmu.edu"> Carnegie Mellon University </a>. I work at the intersection of
 Human-Computer Interaction, Ubiquitous Computing, Computational Materials Manufacturing and Cyber-Physical Human Systems. My work has been published at top-tier HCI venues,
 including ACM CHI, IMWUT (UbiComp), UIST, and CSCW, winning best honorable mention
 award and has also featured on news outlets like New Scientist, Makezine, etc. 
@@ -21,13 +24,8 @@ Universite Paris-Sud XI.
 
 
 <div style="font-size: 14.5px  !important; border: 2px dashed #ddd; border-radius: 3px;padding: 10px;" class="notice center-block full">
-    I am actively looking for motivated students (including Ph.D., masters and undergraduate students) and visiting scholars to join my lab. At UT, I will lead the Energy, Printed Infrastructure and Interactive Computing (EPIC Lab). More details to follow, for a deeper understanding of the lab's effort, please see the research statement and video of my talk below. If that sounds interesting to you, please send me an email to <a style="color:#a51417" href="mailto:saiganes@utk.edu" title="Email">get in touch</a>.
-    <br>
-    <span class="job-links center-block full">
-        <a style="color:#a51417" href="https://drive.google.com/file/d/1QeieRszu_ZJFS_HgP4WuQhO_9lbviQ4R/view?usp=sharing" target="_blank" title="Research Statement">Research Statement</a>
-        <span class="separator"> / </span>
-        <a style="color:#a51417" href="https://drive.google.com/file/d/1lWEHoWffpmWxqR_VIfdMComHHUrx-wau/view?usp=sharing" target="_blank" title="Talk Video">Talk Video</a>
-    </span>
+    <h6> <i> 📢 I am looking for PhD students to join the <a style="font-weight: 600; color:#a51417" href="https://epic.eecs.utk.edu"> EPIC Lab!</a> </i> </h6>
+    You can find more information about applying <a style="color:#a51417"  href="https://epic.eecs.utk.edu/opportunities.html">here</a>
 </div>
 
 <h5 id="rs">Interactive Computational Materials for the Networked Built Environment </h5>
